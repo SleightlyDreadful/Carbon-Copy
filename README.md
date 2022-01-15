@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/stargazers) [![GitHub Tags](https://img.shields.io/github/tag/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/tags) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Dreadrith/Carbon-Copy?include_prereleases)](https://github.com/Dreadrith/Carbon-Copy/releases) [![GitHub issues](https://img.shields.io/github/issues/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/commits/main) [![Discord](https://img.shields.io/discord/750880531293536328)](https://discord.gg/ZsPfrGn) ![Twitter Follow](https://img.shields.io/twitter/follow/Dreadrith?style=social)
 
-By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941619/931692584420638730/LogoCircular.png" width="" height="30">](https://ko-fi.com/dreadrith "Dreadrith") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.gg/ZsPfrGn/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.com/Dreadrith/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://www.dreadrith.com/ "Store") and JustSleightly 
+By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941619/931692584420638730/LogoCircular.png" width="" height="30">](https://ko-fi.com/dreadrith "Dreadrith") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.gg/ZsPfrGn/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.com/Dreadrith/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://dreadrith.gumroad.com/ "Store") and JustSleightly 
 [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/JSLogo.png" width="30" height="30">](https://vrc.sleightly.dev/ "JustSleightly") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.sleightly.dev/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.sleightly.dev/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://store.sleightly.dev/ "Store")
 
 ![](https://media.discordapp.net/attachments/755099548744941619/931580279422869624/unknown.png)
@@ -11,11 +11,21 @@ By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941
 
 With the earliest prototypes/teasers of the system dating back to 2020, we've spent over a year polishing these features for you...
 
-## Available now at [dreadrith.com](https://www.dreadrith.com/)!
+## Available now on [gumroad](https://dreadrith.gumroad.com/)!
 
 <img src="https://github.com/JustSleightly/SleightlyBall/raw/main/Documentation/Gifs/SB%20CJ%20Demo.gif" height="280"> <img src="https://github.com/JustSleightly/SleightlyBall/raw/main/Documentation/Images/SB%20Default%20Settings.png" height="280">
 
 ### Features
+
+######
+
+| Specifications | Minimum | Maximum |
+| :------------- | :------------- | :------------- |
+| `Memory` | 9 | 23 |
+| `Icons` |  |  |
+| `FX Layers` |  |  |
+
+#### System Features
 
 * **Drag and drop setup** - works with any humanoid avatar
 * Supports 2 clone suites - **Mimic** and **Mirror**
@@ -36,6 +46,9 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 * Toggleable **Jutsu Control** for Gesture-Combo-Toggle based activation of the core clone features
 * Swap between two kinds of **Freeze Behaviors** regarding how Dynamic Bones are handled
 * Toggle whether **Dynamic Bones Invert** while in Mirror Vertical mode
+
+#### Tool Features
+
 * Supports running the script multiple times for **multiple clones on the same avatar** via **Suffixing**
 * Can replicate your **lip-sync visemes** to your clone
 * Can **automatically copy all animations** to your clone without using more layers (supports blendtrees and sub-state-machines)
@@ -44,14 +57,6 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 * **Automatically disable facial expressions** while use gesture/jutsu control
 * **Automatically optimizes your parameter memory** saving up to -- memory other systems would use. **Up to --/-- (--%)** of the menu options fit **within - memory!**
 * System can be removed with **one-click removal**
-
-######
-
-| Specifications | Minimum | Maximum |
-| :------------- | :------------- | :------------- |
-| `Memory` | 9 | 17 |
-| `Icons` |  |  |
-| `FX Layers` |  |  |
 
 ######
 
@@ -77,7 +82,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 1. Basic Unity experience + VRChat SDK3 uploading experience.
 2. A **validated** license key for first time activation.
-	1. License keys can be purchased from the [store](https://www.dreadrith.com/).
+	1. License keys can be purchased from the [store](https://dreadrith.gumroad.com/).
 2. An active **internet connection** while in Unity in order to use the tool - cannot be used offline.
 3. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. Windows 11 is not compatible at this time.
 4. Compatible with both Unity 2018 and 2019.
@@ -93,7 +98,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 ### Using the Editor Window
 
-Carbon Copy can be accessed by locating the Dreadrith tab on the top toolbar, then clicking on Carbon Copy.
+Carbon Copy can be accessed from the top toolbar by clicking **DreadTools > Carbon Copy**.
 
 If you have never used this on this PC before, you will see a field labeled **Enter your license key**. Input your license key from your purchase and click activate. This is a one-time-use key that will authorize the current PC for future use of Carbon Copy.
 
@@ -285,7 +290,17 @@ Insert Text Here
 
 <blockquote>
 
+<details>
+
+  <summary> <strong> Clone Avatar </strong> </summary>
+
+######
+
+<blockquote>
+
 Insert Text Here
+
+</details>
 
 ######
 
@@ -299,7 +314,17 @@ Insert Text Here
 
 <blockquote>
 
+<details>
+
+  <summary> <strong> Clone Suffix </strong> </summary>
+
+######
+
+<blockquote>
+
 Insert Text Here
+
+</details>
 
 ######
 
@@ -327,7 +352,7 @@ Insert Text Here
 
 <details>
 
-  <summary> <strong> 8th Bind Type </strong> </summary>
+  <summary> <strong> Extra Bind Type </strong> </summary>
 
 ######
 
@@ -1033,7 +1058,7 @@ Gestures will be ignored until the `Trigger Gesture` is activated. Once the `Tri
 
 <blockquote>
 
-**No**, as [VRChat Quest Avatars](https://docs.vrchat.com/docs/quest-content-limitations) do not support Physics Objects (Rigidbodies, Joints, Colliders) nor Constraints at this time. Other sprint joint ball systems shouldn't be compatible either.
+**No**, as [VRChat Quest Avatars](https://docs.vrchat.com/docs/quest-content-limitations) do not support Constraints at this time. Other clone systems shouldn't be compatible either.
 
 </details>
 
@@ -1045,19 +1070,19 @@ Gestures will be ignored until the `Trigger Gesture` is activated. Once the `Tri
 
 <blockquote>
 
-**Depends**. The system itself only contributes to the Physics Rigidbodies count, and Physics Colliders if **World Physics** is enabled. This generates 3 - 5 Rigidbodies and 2 - 4 Colliders, which will pull your Avatar down to at least [Medium/Poor](https://docs.vrchat.com/docs/avatar-performance-ranking-system). Any other stat reductions are dependent on what balls you choose to use alongside this system.
+It is not compatible by default, but manual modifications can be made to reach [optimization standards](https://docs.vrchat.com/docs/avatar-performance-ranking-system). It is possible to get down as far as Good rating, assuming you had a near Excellent rating model prior to clone generation. You would have to remove the HUD mesh, and modify the `Show Self` and `Hide Self` animation clips to matswap your body mesh to an invisible material instead of toggling the body mesh to prevent yourself from being permanently culled. Any other stat reductions are dependent on what avatar you choose to use with this system.
 
 </details>
 
 <details>
 
-  <summary> <strong> How do I fix Disable Facial Anims to also disable non-blendshapes (Tongues/Eyes)? </strong> </summary>
+  <summary> <strong> How do I fix No Gesture Expressions to also disable non-blendshapes (Tongues/Eyes)? </strong> </summary>
 
 ######
 
 <blockquote>
 
-Navigate through your project files to your Avatar's GeneratedSBResources folder and locate the animation clip for *Disable Facial Animations* in the Animations folder. You can add extra properties to this clip to account for resetting your non-blendshape animations.
+Navigate through your project files to your Avatar's Generated Assets folder for Carbon Copy and locate the animation clips for `Gesture` and `Jutsu` in the UI folder. You can add extra properties to this clip to account for resetting your non-blendshape animations.
 
 </details>
 
@@ -1069,13 +1094,11 @@ Navigate through your project files to your Avatar's GeneratedSBResources folder
 
 <blockquote>
 
-Assuming you have a **commercial license** for Carbon Copy, the script generates everything from scratch, making it easy to export without worrying about conflicting with other packages.
+Assuming you have a **commercial license** for Carbon Copy, you will want to export the respective Generated Assets folder and the Icons folder for Carbon Copy alongside the rest of your avatar package.
 
-You can find these generated resources at ***Save File Path**/GeneratedSBResources/*. By default, this is *Assets/JustSleightly/SleightlyBall/GeneratedSBResources/*.
+You can find these generated resources at ***Save File Path**/GeneratedAssets/*. By default, this is *Assets/DreadScripts/Carbon Copy/GeneratedAssets/*.
 
-The folder with your avatar's SleightlyBall under Generated Resources is the only one you need to export, aside from the files of the actual balls you used with the tool. The only exception to this is if you did not have an FX controller, Gesture controller, Expression Parameters, or Expressions Menu by default, in which those will be generated in your _Assets/_ folder.
-
-**You may not** export or redistribute the _SleightlyBall.dll_ file under *Assets/JustSleightly/SleightlyBall/Resources/*. Please refer to the full Terms Of Use on my [store](https://store.sleightly.dev/).
+The folder for the icons can be found at *Assets/DreadScripts/Carbon Copy/Icons*.
 
 </details>
 
@@ -1087,7 +1110,7 @@ The folder with your avatar's SleightlyBall under Generated Resources is the onl
 
 <blockquote>
 
-**Yes**, in the event you change hardware, you can open an automated Reset/Transfer License ticket on [discord](https://discord.sleightly.dev/). There is a cooldown period to prevent abuse, and these logs will be monitored for misuse. If you need to re-transfer sooner than this transfer period, open a support ticket on [discord](https://discord.gg/ZsPfrGn/).
+**Yes**, in the event you change hardware, you can reach out to Dreadrith on [discord](https://discord.gg/ZsPfrGn/) directly in DMs.
 
 </details>
 
@@ -1099,7 +1122,7 @@ The folder with your avatar's SleightlyBall under Generated Resources is the onl
 
 <blockquote>
 
-Open a support ticket on [discord](https://discord.gg/ZsPfrGn/) or check the Carbon Copy support channel for known issues if you are a validated customer.
+Reach out to Dreadrith directly via DMs from [discord](https://discord.gg/ZsPfrGn/).
 
 </details>
 
@@ -1111,7 +1134,7 @@ Open a support ticket on [discord](https://discord.gg/ZsPfrGn/) or check the Car
 
 <blockquote>
 
-You can add issues to this github repository, or post it in the support channel for Carbon Copy on [discord](https://discord.gg/ZsPfrGn/).
+You can add issues to this github repository, or post it in the **#bug-report** channel for Carbon Copy on [discord](https://discord.gg/ZsPfrGn/).
 
 </details>
 
@@ -1123,7 +1146,7 @@ You can add issues to this github repository, or post it in the support channel 
 
 <blockquote>
 
-Feel free to leave these in the support channel on [discord](https://discord.sleightly.dev/) and we can discuss them in more detail.
+Feel free to leave these in the **#suggestions** channel on [discord](https://discord.gg/ZsPfrGn/) and we can discuss them in more detail.
 
 </details>
 
@@ -1135,6 +1158,6 @@ Feel free to leave these in the support channel on [discord](https://discord.sle
 
 <blockquote>
 
-If you need help with using Carbon Copy, reach out in the designated support channel on [discord](https://discord.gg/ZsPfrGn/) so me or a community member can help. If you have private issues involving purchase details, open up a support ticket instead.
+If you need help with using Carbon Copy, reach out in the designated **#support** channel on [discord](https://discord.gg/ZsPfrGn/) so we or a community member can help.
 
 </details>
