@@ -79,7 +79,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 2. A **validated** license key for first time activation.
 	1. License keys can be purchased from the [store](https://www.dreadrith.com/).
 2. An active **internet connection** while in Unity in order to use the tool - cannot be used offline.
-3. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. Windows 11 is not compatible.
+3. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. Windows 11 is not compatible at this time.
 4. Compatible with both Unity 2018 and 2019.
 5. Pre-requisite import - [VRCSDK3](https://vrchat.com/home/download) of at least 2021 compatible with your Unity version.
 
