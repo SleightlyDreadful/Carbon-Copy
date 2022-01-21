@@ -612,7 +612,7 @@ If you have entered your Discord Username upon purchase, your name will appear o
 
 <blockquote>
 
-Insert Text Here
+Toggles mimic mode. Spawns where you are standing or where you had placed the anchor. Stays in place till confirmed.
 
 </details>
 
@@ -624,7 +624,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles Confirm. Unlocks or locks Mimic's root movement that makes it move with you. Used to maintain any desired offset from the Mimic.
 
 </details>
 
@@ -648,7 +648,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles regular mirror mode. Spawns where you're standing. Moves as if the mirror is in front of you.
 
 </details>
 
@@ -660,7 +660,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles radial mirror mode. Same as Standard but root moves to your opposite on the XZ axis.
 
 </details>
 
@@ -672,7 +672,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles vertical mirror mode. Spawns where your feet are and is flipped upside down.
 
 </details>
 
@@ -696,7 +696,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Hides your own avatar by disabling all rendering components.
 
 </details>
 
@@ -708,19 +708,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
-
-</details>
-
-<details>
-
-  <summary> <strong> Test </strong> </summary>
-
-######
-
-<blockquote>
-
-Insert Text Here
+Hides your own avatar and shows the clone. Automatically uses mimic if no clone is active. Overrides Hide.
 
 </details>
 
@@ -732,15 +720,13 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
-
-######
-
+Resets Clone's position and rotation to where you currently are. Disables Confirm. If Clone is disabled, sets down an anchor which can be used to make the Mimic spawn at that location right away.
+	
 </details>
 
 <details>
 
-  <summary> <strong> Bind </strong> </summary>
+  <summary> <strong> Bind (Mimic)</strong> </summary>
 
 ######
 
@@ -754,7 +740,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Makes the Mimic move with your left hand.
 
 </details>
 
@@ -766,7 +752,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Makes the Mimic move with your left foot.
 
 </details>
 
@@ -778,19 +764,19 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Makes the Mimic move with your head.
 
 </details>
 
 <details>
 
-  <summary> <strong> Extra </strong> </summary>
+  <summary> <strong> Extra/Ball</strong> </summary>
 
 ######
 
 <blockquote>
 
-Insert Text Here
+If you had chosen "Generate Spring Ball" with the tool in "Extra Bind Type". The Mimic will act like a spring ball. Point to switch hands, Open Hand to make the clone orbit.
 
 </details>
 
@@ -802,7 +788,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Makes the Mimic move with your chest.
 
 </details>
 
@@ -814,7 +800,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Makes the Mimic move with your hips.
 
 </details>
 
@@ -826,7 +812,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Makes the Mimic move with your right foot.
 
 </details>
 
@@ -838,7 +824,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Makes the Mimic move with your right hand.
 
 </details>
 
@@ -852,7 +838,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggle Hide. Hides the clone's renderers. Still functions normally. Overridden by Swap and Freeze.
 
 </details>
 
@@ -864,7 +850,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Freezes the clone completely so it stays still. Compatible with binding. Overrides Hide.
 
 </details>
 
@@ -888,7 +874,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles whether Freezing should disable the Dynamic Bones or attempt to stop their movement.
 
 </details>
 
@@ -900,7 +886,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles whether vertical mirror will cause Dynamic bones to invert gravity.
 
 </details>
 
@@ -912,7 +898,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles the HUD on screen.
 
 </details>
 
@@ -924,7 +910,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggle features using a combination of hand gestures.
 
 </details>
 
@@ -936,7 +922,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Activate features using hand gestures.
 
 </details>
 
@@ -960,7 +946,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles whether the scale float should take effect or not.
 
 </details>
 
@@ -980,7 +966,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles the proportional movement of the clone on the world's Y Axis.
 
 </details>
 
@@ -992,7 +978,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Resets the Proportional offset due to the scale of the clone. This is separate from the regular reset or anchor. Regular reset or anchor trigger this automatically.
 
 </details>
 
@@ -1004,7 +990,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Toggles the proportional movement of the clone on the world's XZ Axis.
 
 </details>
 
@@ -1020,7 +1006,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Modifies the scale of the clone based on the percents chosen during setup.
 
 </details>
 
@@ -1074,7 +1060,7 @@ Gestures will be ignored until the `Trigger Gesture` is activated. Once the `Tri
 
 <blockquote>
 
-**No**, as [VRChat Quest Avatars](https://docs.vrchat.com/docs/quest-content-limitations) do not support Constraints at this time. Other clone systems shouldn't be compatible either.
+**No**, as [VRChat Quest Avatars](https://docs.vrchat.com/docs/quest-content-limitations) do not support Constraints at this time. Other clone systems are often not compatible either.
 
 </details>
 
