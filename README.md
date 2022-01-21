@@ -118,7 +118,7 @@ If you have never used this on this PC before, you will see a field labeled **En
 
 <blockquote>
 
-Insert Text Here
+The Avatar that you want to apply Carbon Copy to. Must have a VRC Avatar Descriptor.
 
 </details>
 
@@ -130,7 +130,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+The name of the clone in the hierarchy.
 
 </details>
 
@@ -142,7 +142,10 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+The type of the clone  
+
+Mimic: Follows your movement 1 to 1. Can be Placed down or binded to limbs. Used by default if using quick features while Clone isn't enabled.  
+Mirror: Follows your movement in an mirrored way. Can also be mirrored vertically or semi-radially.
 
 </details>
 
@@ -154,7 +157,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Where the HUD should appear on your screen.
 
 </details>
 
@@ -178,7 +181,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Helps keeping the clone in place while scaling. Uses +1 Memory.
 
 </details>
 
@@ -190,7 +193,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Scale will persist across instances and avatar load
 
 </details>
 
@@ -202,7 +205,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+The minimum or maximum percent of the scale the clone can be scaled to.
 
 </details>
 
@@ -226,7 +229,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Clone will move proportionally to its scale on the XZ Axis.
 
 </details>
 
@@ -238,7 +241,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Clone will move proportionally to its scale on the Y Axis.
 
 </details>
 
@@ -250,7 +253,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+HUD displays on the screen to show you your current active functions and settings.
 
 </details>
 
@@ -262,7 +265,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Freeze will disable the Dynamic Bones instead of stopping their movement. Disabling dynamic bones makes their transforms reset to their original stiff position.
 
 </details>
 
@@ -274,7 +277,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Vertical Mirror will invert the gravity on Dynamic bones.
 
 </details>
 
@@ -298,7 +301,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Allows using a different humanoid Avatar as the clone. Requires a humanoid Avatar to use as a clone for CarbonCopy.
 
 </details>
 
@@ -322,7 +325,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Allows generating multiple separate clones. Requires Suffix to add to the extra clone. Each clone must have a unique Suffix.
 
 </details>
 
@@ -346,7 +349,10 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+How to deal with Dynamic Bones that exist on the humanoid armature.  
+	- Regenerate: Recursively apply the same Dynamic Bone to its children until it's not a humanoid bone.  
+	- Ignore: Don't apply the mimic or mirror constraint logic to these bones.  
+	- Apply Anyway: Pretend there's no Dynamic Bone.  
 
 </details>
 
@@ -358,19 +364,21 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+What the last Binding button should bind to.  
+	- Spring Ball: A simple spring ball system will be generated and the clone binds to it.  
+	- Target: Choose a target transform that the Clone will bind itself to.
 
 </details>
 
 <details>
 
-  <summary> <strong> Clone Animations </strong> </summary>
+  <summary> <strong> Clone FX Animations </strong> </summary>
 
 ######
 
 <blockquote>
 
-Insert Text Here
+FX Animations will affect the clone as well. Allows your clone to do the same animations as you.
 
 </details>
 
@@ -382,7 +390,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Generates parameter controlled Lipsync for the clone based off of your current visemes.
 
 </details>
 
@@ -394,7 +402,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Sets your face expressions to the idle state when Gesture or Jutsu controls are enabled.
 
 </details>
 
@@ -406,7 +414,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Replaces Dynamic Bones with Rotation Constraints on Mimic. Incompatible with Mirror
 
 </details>
 
@@ -430,7 +438,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Removes all Camera components on the clone.
 
 </details>
 
@@ -442,7 +450,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Removes all Collider components on the clone.
 
 </details>
 
@@ -454,7 +462,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Removes all Audio Source components on the clone.
 
 </details>
 
@@ -466,7 +474,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Removes all Dynamic Bone and Dynamic Bone Collider components on the clone.
 
 </details>
 
@@ -490,7 +498,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+A Basic step log in the console. This is useful for reporting an issue or bug with the tool so we can know where the issue stems from.
 
 </details>
 
@@ -502,7 +510,12 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Hovering over the Memory Cost will tell you what's using memory. You must have enough memory to install. You may enable or disable certain features that contribute to the cost.  
+	- Clone: 8 Memory  
+	- Scale: 8 Memory  
+	- Hud+Cull: 1 Memory  
+	- Stabilize Scale: 1 Memory  
+	- Saving Preferences: 1x5 Memory  
 
 </details>
 
@@ -526,19 +539,22 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Removes Carbon Copy. Deletes the CCopy World Space. Removes all Carbon Copy Parameters. Deletes All Carbon Copy layers from FX.  
+Note that the clean up doesn't delete assets in the Generated Assets folder as to avoid deleting any important files.  
+It also does not remove any properties from animation clips or paths in masks that it previously added.  
+For a clean rollback, simply use your original assets again. Carbon Copy uses a copy of all assets so that no modification is permanent.  
 
 </details>
 
 <details>
 
-  <summary> <strong> Save File Path </strong> </summary>
+  <summary> <strong> Generated Assets Path </strong> </summary>
 
 ######
 
 <blockquote>
 
-Insert Text Here
+Where all the newly generated folders and assets will be generated.
 
 </details>
 
@@ -550,7 +566,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+Checks for an update for the tool. Notifies you if there is one and allows quick and easy download and import. Runs automatically once per day.
 
 </details>
 
@@ -562,7 +578,7 @@ Insert Text Here
 
 <blockquote>
 
-Insert Text Here
+If you have entered your Discord Username upon purchase, your name will appear on the tool. Otherwise, this label is hidden.
 
 </details>
 
