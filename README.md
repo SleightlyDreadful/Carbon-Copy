@@ -210,7 +210,7 @@ Scale will persist across instances and avatar load. Disabled by default.
 
 <blockquote>
 
-The minimum or maximum scale percent the clone can be scaled to.
+The minimum or maximum scale percentage the clone can be scaled to.
 
 </details>
 
@@ -284,7 +284,7 @@ When enabled, **Freeze** will disable the Dynamic Bones instead of stopping thei
 
 <blockquote>
 
-When enabled, **Vertical Mirror** will invert the gravity/force on Dynamic bones.
+When enabled, **Vertical Mirror** will invert the gravity/force on Dynamic Bones.
 
 </details>
 
@@ -300,7 +300,7 @@ When enabled, **Vertical Mirror** will invert the gravity/force on Dynamic bones
 
 <blockquote>
 
-Allows using a different humanoid Avatar as the clone. Requires a humanoid Avatar to use as a clone for CarbonCopy.
+Allows using a different humanoid Avatar as the clone.
 
 <details>
 
@@ -310,7 +310,7 @@ Allows using a different humanoid Avatar as the clone. Requires a humanoid Avata
 
 <blockquote>
 
-The Avatar to be used as the clone in Carbon Copy.
+The Avatar to be used as the clone in Carbon Copy. Requires a humanoid Avatar to use as a clone for CarbonCopy.
 
 </details>
 
@@ -411,7 +411,7 @@ FX layer Animations will affect the clone as well. Allows your clone to do the s
 
 <blockquote>
 
-Generates parameter controlled Lipsync for the clone based off of your current visemes.
+Generates viseme parameter controlled Lipsync for the clone based off of your current viseme blendshapes.
 
 </details>
 
@@ -533,7 +533,7 @@ A basic step log in the console. This is useful for reporting an issue or bug wi
 
 <blockquote>
 
-Hovering over the Memory Cost will tell you what's using memory. You must have enough memory to install. You may enable or disable certain features that contribute to the cost.
+Hovering over the Memory Cost will tell you what's using memory. You must have enough memory to install Cargon Copy. You may enable or disable certain features that contribute to the cost.
 
 | Feature | Memory Cost |
 | :------------- | :------------- |
@@ -586,6 +586,8 @@ For a clean rollback, simply use your original assets again. Carbon Copy uses a 
 <blockquote>
 
 Define where all the newly generated folders and assets will be generated.
+
+By default, this is *Assets/DreadScripts/Carbon Copy/GeneratedAssets/*.
 
 </details>
 
@@ -643,7 +645,7 @@ If you have entered your Discord Username upon purchase, your name will appear o
 
 <blockquote>
 
-Toggles a **Mimic** clone that follows your movements one-to-one. Spawns where you are standing or where you had placed the anchor. Stays in place till confirmed.
+Toggles a **Mimic** clone that follows your movements one-to-one. Spawns where you are standing or where you had placed the anchor. Stays in place until confirmed.
 
 </details>
 
@@ -679,7 +681,7 @@ Toggles Confirm. Unlocks or locks **Mimic**'s root movement that makes it move w
 
 <blockquote>
 
-Toggles a standard mirror mode clone. Spawns where you're standing. Moves as if a mirror dropped on top of you straight forward.
+Toggles a **Standard** mirror mode clone. Spawns where you're standing. Moves as if a mirror dropped on top of you straight forward.
 
 </details>
 
@@ -691,7 +693,7 @@ Toggles a standard mirror mode clone. Spawns where you're standing. Moves as if 
 
 <blockquote>
 
-Toggles a radial mirror mode clone. Same as Standard but root moves to your opposite on the XZ plane.
+Toggles a **Radial** mirror mode clone. Same as **Standard** but root moves to your opposite on the XZ plane.
 
 </details>
 
@@ -703,7 +705,7 @@ Toggles a radial mirror mode clone. Same as Standard but root moves to your oppo
 
 <blockquote>
 
-Toggles a vertical mirror mode clone. Spawns where your feet are and is flipped upside down.
+Toggles a **Vertical** mirror mode clone. Spawns where your feet are and is flipped upside down.
 
 </details>
 
@@ -739,9 +741,9 @@ Hides your own avatar by disabling all rendering components.
 
 <blockquote>
 
-Hides your own avatar and shows the clone. Automatically uses mimic if no clone is active. 
+Hides your own avatar and shows the clone. Automatically uses **mimic**'s behavior if no clone is active. 
 
-Overrides Hide.
+Overrides **Hide**.
 
 </details>
 
@@ -753,9 +755,9 @@ Overrides Hide.
 
 <blockquote>
 
-Resets Clone's position and rotation to where you currently are. Disables Confirm. 
+Resets Ccone's position and rotation to where you currently are. Disables **Confirm**.
 
-If Clone is disabled, sets down an anchor which can be used to make the **Mimic** clone spawn at that location right away.
+If clone is disabled, sets down an anchor which can be used to make the **Mimic** clone spawn at that location right away.
 	
 </details>
 
@@ -901,7 +903,7 @@ Overridden by **Swap** and **Freeze**.
 
 <blockquote>
 
-Freezes the clone completely so it stays still. Compatible with binding. 
+Freezes the clone completely so it stays still. Compatible with **Bind**. 
 
 Overrides **Hide**. Replaces **Lag** if active.
 
@@ -927,7 +929,7 @@ Overrides **Hide**. Replaces **Lag** if active.
 
 <blockquote>
 
-Toggles whether Freezing should disable the Dynamic Bones or attempt to stop their movement.
+Toggles whether **Freeze** should disable the Dynamic Bones or attempt to stop their movement.
 
 This option is not available if **Optimize Clone** was used.
 
@@ -941,9 +943,9 @@ This option is not available if **Optimize Clone** was used.
 
 <blockquote>
 
-Toggles whether vertical mirror will cause Dynamic bones to invert gravity.
+Toggles whether **Vertical** mirror will cause Dynamic bones to invert gravity.
 
-This option is not available if Carbon Copy was generated as *Mimic Only*.
+This option is not available if Carbon Copy was generated as `Mimic Only`.
 
 </details>
 
@@ -955,7 +957,7 @@ This option is not available if Carbon Copy was generated as *Mimic Only*.
 
 <blockquote>
 
-Toggles the Icon HUD on screen.
+Toggles a HUD displays on the screen to show you your current active functions and settings.
 
 </details>
 
@@ -967,7 +969,7 @@ Toggles the Icon HUD on screen.
 
 <blockquote>
 
-Toggle features using a combination of hand gestures and trigger/reset gestures. See **Gesture Mapping** for a usage explanation.
+Toggle clone functions using a combination of hand gestures and trigger/reset gestures. See **Gesture Mapping** for a usage explanation.
 
 Recommended for users who prefer the gestures to persist without being held.
 
@@ -981,7 +983,7 @@ Recommended for users who prefer the gestures to persist without being held.
 
 <blockquote>
 
-Activate features by holding hand gestures. See **Gesture Mapping** for a usage explanation.
+Activate clone functions by holding hand gestures. See **Gesture Mapping** for a usage explanation.
 
 Recommended for users with good Gesture Locking control and want maximum responsiveness during performing.
 
@@ -1007,7 +1009,7 @@ Recommended for users with good Gesture Locking control and want maximum respons
 
 <blockquote>
 
-Toggles whether the scale float should take effect or not.
+Toggles whether the **Scale** radial puppet should take effect or not.
 
 </details>
 
@@ -1039,7 +1041,7 @@ Toggles the proportional movement of the clone on the world's Y axis.
 
 <blockquote>
 
-Resets the Proportional offset due to the scale of the clone. This is separate from the regular reset or anchor. Regular reset or anchor trigger this automatically.
+Resets the proportional offset due to the scale of the clone. This is separate from the regular reset or anchor. Regular reset or anchor trigger this automatically.
 
 </details>
 
@@ -1067,7 +1069,7 @@ Toggles the proportional movement of the clone on the world's XZ plane.
 
 <blockquote>
 
-Modifies the scale of the clone based on the percentages chosen during installation.
+Modifies the **Scale** of the clone based on the percentages chosen during installation.
 
 </details>
 
