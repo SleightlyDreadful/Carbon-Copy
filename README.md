@@ -1186,7 +1186,7 @@ Toggles a HUD displays on the screen to show you your current active functions a
 
 <blockquote>
 
-Toggle clone functions using a combination of hand gestures and trigger/reset gestures. See **Gesture Mapping** for a usage explanation.
+Toggle clone functions using a combination of hand gestures and trigger/reset gestures. See **[Gesture Mapping](https://github.com/Dreadrith/Carbon-Copy#gesture-controls)** for a usage explanation.
 
 Recommended for users who prefer the gestures to persist without being held.
 
@@ -1200,7 +1200,7 @@ Recommended for users who prefer the gestures to persist without being held.
 
 <blockquote>
 
-Activate clone functions by holding hand gestures. See **Gesture Mapping** for a usage explanation.
+Activate clone functions by holding hand gestures. See **[Gesture Mapping](https://github.com/Dreadrith/Carbon-Copy#gesture-controls)** for a usage explanation.
 
 Recommended for users with good Gesture Locking control and want maximum responsiveness during performing.
 
