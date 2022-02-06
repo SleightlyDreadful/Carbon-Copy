@@ -5,7 +5,7 @@
 By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941619/931692584420638730/LogoCircular.png" width="" height="30">](https://ko-fi.com/dreadrith "Dreadrith") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.gg/ZsPfrGn/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.com/Dreadrith/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://dreadrith.gumroad.com/ "Store") and JustSleightly 
 [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/JSLogo.png" width="30" height="30">](https://vrc.sleightly.dev/ "JustSleightly") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.sleightly.dev/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.sleightly.dev/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://store.sleightly.dev/ "Store")
 
-![](https://media.discordapp.net/attachments/755099548744941619/931580279422869624/unknown.png)
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Default%20Window.png)
 
 **Carbon Copy** is a feature-rich constraint-based clone system built for **VRChat** users and designed with performers in mind. Its features are entirely customizable and modular while optimizing parameter memory, and can be installed with one-click without any VRChat 3.0 or advanced Unity experience whatsoever.
 
@@ -13,17 +13,18 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 ## Available now on [gumroad](https://dreadrith.gumroad.com/)!
 
-<img src="https://github.com/JustSleightly/SleightlyBall/raw/main/Documentation/Gifs/SB%20CJ%20Demo.gif" height="280"> <img src="https://github.com/JustSleightly/SleightlyBall/raw/main/Documentation/Images/SB%20Default%20Settings.png" height="280">
+<img src="https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Gifs/CC%20Demo%20Bind.gif" height="239"> <img src="https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Default%20Window.png" height="239">
 
 ### Features
 
 ######
 
-| Specifications | Minimum | Maximum |
-| :------------- | :------------- | :------------- |
-| `Memory` | 9 | 23 |
-| `Icons` |  |  |
-| `FX Layers` |  |  |
+| Specifications | Stats |
+| :------------- | :-------------: |
+| `Memory` | 9 - 23 |
+| `Icons` | 39 |
+| `Animations` | 95 |
+| `FX Layers` | 27 |
 
 #### System Features
 
@@ -56,7 +57,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 * Can **automatically remove certain component types** from the clone
 * **Automatic Write Defaults detection** and compatibility with both on/off
 * **Automatically disable facial expressions** while use gesture/jutsu control
-* **Automatically optimizes your parameter memory** saving up to -- memory other systems would use. **Up to --/-- (--%)** of the menu options fit **within - memory!**
+* **Automatically optimizes your parameter memory** saving up to -- memory other systems would use. **Up to 28/29 (96%)** of the menu options fit **within 8 memory!**
 * System can be removed with **one-click removal**
 
 ######
@@ -73,7 +74,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 <blockquote>
 
-![](https://github.com/JustSleightly/SleightlyBall/raw/main/Documentation/Gifs/SB%20Script%20Showcase.gif)
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Gifs/CC%20Full%20Window%20Demo.gif)
 
 </details>
 
@@ -110,6 +111,8 @@ If you have never used this on this PC before, you will see a field labeled **En
 ######
 
 <blockquote>
+
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Main.png)
 
 <details>
 
@@ -166,6 +169,18 @@ Select the general position on your screen where the Carbon Copy HUD should be d
 
 </details>
 
+<details>
+
+  <summary> <strong> HUD Color </strong> </summary>
+
+######
+
+<blockquote>
+
+Select the HDR color and opacity of the HUD that will be displayed.
+
+</details>
+
 ######
 
 </details>
@@ -177,6 +192,8 @@ Select the general position on your screen where the Carbon Copy HUD should be d
 ######
 
 <blockquote>
+
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Scaling.png)
 
 <details>
 
@@ -227,6 +244,8 @@ The minimum or maximum scale percentage the clone can be scaled to.
 <blockquote>
 
 Select whether the below settings will be saved to persist across instances and avatar loads, and if they are enabled or disabled by default.
+
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Preferences.png)
 
 <details>
 
@@ -302,6 +321,8 @@ When enabled, **Vertical Mirror** will invert the gravity/force on Dynamic Bones
 
 Allows using a different humanoid Avatar as the clone.
 
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Proxy.png)
+
 <details>
 
   <summary> <strong> Clone Avatar </strong> </summary>
@@ -328,6 +349,8 @@ The Avatar to be used as the clone in Carbon Copy. Requires a humanoid Avatar to
 
 Allows generating multiple separate clones.
 
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Multi%20Clone.png)
+
 <details>
 
   <summary> <strong> Clone Suffix </strong> </summary>
@@ -351,6 +374,20 @@ Requires a Suffix to add to the extra clone to avoid conflicts between your clon
 ######
 
 <blockquote>
+
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Configuration.png)
+
+<details>
+
+  <summary> <strong> Lag Frame Rate </strong> </summary>
+
+######
+
+<blockquote>
+
+Define how many simulated frames the clone should have when you enable **Lag** in the **Quick** Menu
+
+</details>
 
 <details>
 
@@ -439,6 +476,18 @@ Replaces Dynamic Bones with Rotation Constraints on **Mimic**. Incompatible with
 
 </details>
 
+<details>
+
+  <summary> <strong> Write Defaults </strong> </summary>
+
+######
+
+<blockquote>
+
+Set the Write Defaults that Carbon Copy will generate its animator states with. This will attempt to be automatically detected based on your existing FX playable layer.
+
+</details>
+
 ######
 
 </details>
@@ -452,6 +501,8 @@ Replaces Dynamic Bones with Rotation Constraints on **Mimic**. Incompatible with
 <blockquote>
 
 Optional mass-removal of components from the generated clone.
+
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Clean%20Up.png)
 
 <details>
 
@@ -507,11 +558,29 @@ Removes all Dynamic Bone and Dynamic Bone Collider components on the clone.
 
 <details>
 
+  <summary> <strong> Apply Carbon Copy! </strong> </summary>
+
+######
+
+<blockquote>
+
+Click to apply Carbon Copy according to all the inputs above.
+
+After generation, the clone will appear as enabled, and a **Hide Avatar** button will appear next to **Apply Carbon Copy**. Click **Hide Avatar** to disable the clone and finalize setup.
+
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Utilities.png)
+
+</details>
+
+<details>
+
   <summary> <strong> Utilities </strong> </summary>
 
 ######
 
 <blockquote>
+
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Utilities.png)
 
 <details>
 
@@ -553,7 +622,155 @@ Hovering over the Memory Cost will tell you what's using memory. You must have e
 
 <blockquote>
 
-Insert Text Here
+<details>
+
+  <summary> <strong> Avatar not set </strong> </summary>
+
+######
+
+<blockquote>
+
+Please populate an avatar to generate Carbon Copy on.
+
+</details>
+
+<details>
+
+  <summary> <strong> Avatar doesn't have an Animator Component </strong> </summary>
+
+######
+
+<blockquote>
+
+Make sure your Avatar Root with the Avatar Descriptor has an Animator on it. Most FBXs come with this by default, so this might indicate something happened to yours that needs to be fixed.
+
+</details>
+
+<details>
+
+  <summary> <strong> Avatar's Animator requires an Avatar asset in the Animator </strong> </summary>
+
+######
+
+<blockquote>
+
+The Animator component doesn't have an Avatar defined in it, which means it can't tell if the Avatar is humanoid or not. Please assign the Avatar to this Avatar Descriptor.
+
+</details>
+
+<details>
+
+  <summary> <strong> Avatar's Animator is not Humanoid </strong> </summary>
+
+######
+
+<blockquote>
+
+The avatar's rig is not set to humanoid in Unity. Please set it to humanoid before proceeding.
+
+</details>
+
+<details>
+
+  <summary> <strong> Clone Avatar not set </strong> </summary>
+
+######
+
+<blockquote>
+
+Only displayed if the Proxy module is in use.
+
+Please populate a proxy avatar to generate Carbon Copy on.
+
+</details>
+
+<details>
+
+  <summary> <strong> Clone Avatar requires an Avatar Asset in the Animator </strong> </summary>
+
+######
+
+<blockquote>
+
+Only displayed if the Proxy module is in use.
+
+The Animator component on the proxy doesn't have an Avatar defined in it, which means it can't tell if the Avatar is humanoid or not. Please assign the Avatar to this Avatar Descriptor.
+
+</details>
+
+<details>
+
+  <summary> <strong> Target Avatar is not Humanoid </strong> </summary>
+
+######
+
+<blockquote>
+
+Only displayed if the Proxy module is in use.
+
+The proxy avatar's rig is not set to humanoid in Unity. Please set it to humanoid before proceeding.
+
+</details>
+
+<details>
+
+  <summary> <strong> Face Mesh not found on Avatar </strong> </summary>
+
+######
+
+<blockquote>
+
+Expression Disabling and LipSync will be ignored.
+
+</details>
+
+<details>
+
+  <summary> <strong> The Following Clips Have Render toggling properties </strong> </summary>
+
+######
+
+<blockquote>
+
+Rendering component toggling is used by CarbonCopy and may override your FX animations and cause unexpected issues. Try to convert these animations to use gameobject toggles instead, or remove them entirely.
+
+</details>
+
+<details>
+
+  <summary> <strong> Write Defaults on FX detected as Mixed </strong> </summary>
+
+######
+
+<blockquote>
+
+Write Defaults will be set to Off by default. You can change this under the Configuration module.
+
+</details>
+
+<details>
+
+  <summary> <strong> Avatar requires __ free memory to contain the new parameters </strong> </summary>
+
+######
+
+<blockquote>
+
+The current avatar is currently using too much expression parameter memory. Please remove some 3.0 from your existing model to make room for Carbon Copy.
+
+</details>
+
+<details>
+
+  <summary> <strong> Avatar does not have enough free control slots </strong> </summary>
+
+######
+
+<blockquote>
+
+The Expressions Menu on the Avatar Descriptor does not have enough menu space to add the control for Carbon Copy. Free up some menu space.
+
+</details>
 
 </details>
 
@@ -763,7 +980,7 @@ If clone is disabled, sets down an anchor which can be used to make the **Mimic*
 
 <details>
 
-  <summary> <strong> Bind (Mimic)</strong> </summary>
+  <summary> <strong> Bind (Mimic) </strong> </summary>
 
 ######
 
@@ -807,7 +1024,7 @@ Makes the **Mimic** clone move with your head.
 
 <details>
 
-  <summary> <strong> Extra/Ball</strong> </summary>
+  <summary> <strong> Extra/Ball </strong> </summary>
 
 ######
 
