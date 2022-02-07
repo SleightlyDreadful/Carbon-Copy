@@ -660,13 +660,13 @@ The Animator component doesn't have an Avatar defined in it, which means it can'
 
 <details>
 
-  <summary> <strong> Avatar's Animator is not Humanoid </strong> </summary>
+  <summary> <strong> Your Avatar's Descriptor is set as Non-Humanoid </strong> </summary>
 
 ######
 
 <blockquote>
 
-The avatar's rig is not set to humanoid in Unity. Please set it to humanoid before proceeding.
+The avatar's rig is not set to humanoid in Unity. Please set it to humanoid and map the required bones before proceeding.
 
 </details>
 
@@ -769,6 +769,18 @@ The current avatar is currently using too much expression parameter memory. Plea
 <blockquote>
 
 The Expressions Menu on the Avatar Descriptor does not have enough menu space to add the control for Carbon Copy. Free up some menu space.
+
+</details>
+
+<details>
+
+  <summary> <strong> Your Avatar's Action playable layer is set as FX </strong> </summary>
+
+######
+
+<blockquote>
+
+This is an uncommon bug due to the changing of Avatars in your Animator component or the switching between Generic/Humanoid rigs while having an Avatar Descriptor. Click Fix to resolve this, and make sure to replace your custom Action layer if you had one.
 
 </details>
 
