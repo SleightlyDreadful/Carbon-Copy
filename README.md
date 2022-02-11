@@ -518,13 +518,13 @@ Removes all Camera components on the clone.
 
 <details>
 
-  <summary> <strong> Remove Clone Colliders </strong> </summary>
+  <summary> <strong> Remove Fixed Joints </strong> </summary>
 
 ######
 
 <blockquote>
 
-Removes all Collider components on the clone.
+Removes all Fixed Joint components on the clone. This is particularly used to make world physics fixes like [SleightlyBall](https://github.sleightly.dev/SleightlyBall) compatible on clones.
 
 </details>
 
@@ -537,6 +537,18 @@ Removes all Collider components on the clone.
 <blockquote>
 
 Removes all Audio Source components on the clone.
+
+</details>
+
+<details>
+
+  <summary> <strong> Remove Clone Colliders </strong> </summary>
+
+######
+
+<blockquote>
+
+Removes all Collider components on the clone.
 
 </details>
 
@@ -1305,8 +1317,6 @@ Modifies the **Scale** of the clone based on the percentages chosen during insta
 ######
 
 </details>
-
-
 
 ### Gesture Controls
 
