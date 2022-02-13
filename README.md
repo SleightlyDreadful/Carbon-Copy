@@ -57,7 +57,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 * Can **automatically remove certain component types** from the clone
 * **Automatic Write Defaults detection** and compatibility with both on/off
 * **Automatically disable facial expressions** while use gesture/jutsu control
-* **Automatically optimizes your parameter memory** saving up to -- memory other systems would use. **Up to 28/29 (96%)** of the menu options fit **within 8 memory!**
+* **Automatically optimizes your parameter memory** saving up to 20 memory other systems would use. **Up to 28/29 (96%)** of the menu options fit **within 8 memory!**
 * System can be removed with **one-click removal**
 
 ######
