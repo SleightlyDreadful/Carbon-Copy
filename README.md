@@ -1477,3 +1477,9 @@ Feel free to leave these in the **#suggestions** channel on [discord](https://di
 If you need help with using Carbon Copy, reach out in the designated **#support** channel on [discord](https://discord.gg/ZsPfrGn/) so we or a community member can help.
 
 </details>
+
+---
+
+## Special Thanks
+
+**[ksivl](https://github.com/ksivl)** - For the knowledge regarding relational positioning world constraints that contributed to the development of the dynamic positioning of the clone via **Confirm**
