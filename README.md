@@ -5,7 +5,7 @@
 By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941619/931692584420638730/LogoCircular.png" width="" height="30">](https://ko-fi.com/dreadrith "Dreadrith") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.gg/ZsPfrGn/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.com/Dreadrith/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://dreadrith.gumroad.com/ "Store") and JustSleightly 
 [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/JSLogo.png" width="30" height="30">](https://vrc.sleightly.dev/ "JustSleightly") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.sleightly.dev/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.sleightly.dev/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://store.sleightly.dev/ "Store")
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Default%20Window.png)
+![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Gifs/CC%20Showcase%20Mirror-Multi.gif)
 
 **Carbon Copy** is a feature-rich constraint-based clone system built for **VRChat** users and designed with performers in mind. Its features are entirely customizable and modular while optimizing parameter memory, and can be installed with one-click without any VRChat 3.0 or advanced Unity experience whatsoever.
 
@@ -13,7 +13,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 ## Available now on [gumroad](https://dreadrith.gumroad.com/)!
 
-<img src="https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Gifs/CC%20Demo%20Bind.gif" height="239"> <img src="https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Default%20Window.png" height="239">
+<img src="https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Gifs/CC%20Showcase%20Swap-Bind.gif" height="239"> <img src="https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Default%20Window.png" height="239">
 
 ### Features
 
@@ -64,7 +64,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 <h2> Showcase </h2>
 
-[<img src="https://img.youtube.com/vi/p-oQoq1jhgk/0.jpg">](https://www.youtube.com/watch?v=p-oQoq1jhgk "SleightlyBall Showcase")
+[<img src="https://img.youtube.com/vi/0jcRXNlDFz4/0.jpg">](https://youtu.be/0jcRXNlDFz4&list=PLpwkZ4rDyvL2rqBPPXGDrLV7ZoAAhRIy6 "Carbon Copy Showcase Trailer")
 
 <details> 
 
@@ -94,9 +94,9 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 # Installation
 
-### Unity Installation Guide Video
+### Unity Installation Videos
 
-[![Carbon Copy Unity Installation Guide](http://img.youtube.com/vi/JV56OLPQJi8/0.jpg)](http://www.youtube.com/watch?v=JV56OLPQJi8 "Carbon Copy Unity Installation Guide")
+[<img src="https://img.youtube.com/vi/va1lYhfW4Jw/0.jpg" height="239">](https://youtu.be/va1lYhfW4Jw&list=PLpwkZ4rDyvL2rqBPPXGDrLV7ZoAAhRIy6 "Carbon Copy Unity Installation Speedrun WR Any%") [<img src="https://img.youtube.com/vi/TqdPVBS3s8g/0.jpg" height="239">](https://youtu.be/TqdPVBS3s8g&list=PLpwkZ4rDyvL2rqBPPXGDrLV7ZoAAhRIy6 "Carbon Copy Unity Detailed Installation Tutorial")
 
 ### Using the Editor Window
 
@@ -864,9 +864,9 @@ If you have entered your Discord Username upon purchase, your name will appear o
 
 # Usage
 
-### In-Game Usage Tutorial Video
+### In-Game Demo Video
 
-[![Carbon Copy In-Game Usage Tutorial](http://img.youtube.com/vi/XQh3cU5Ttt0/0.jpg)](http://www.youtube.com/watch?v=XQh3cU5Ttt0 "Carbon Copy In-Game Usage Tutorial")
+[![Carbon Copy In-Game Demo](https://img.youtube.com/vi/-uURDsdm8us/0.jpg)](https://youtu.be/-uURDsdm8us&list=PLpwkZ4rDyvL2rqBPPXGDrLV7ZoAAhRIy6 "Carbon Copy In-Game Demo")
 
 ### Menu Options
 
@@ -1375,6 +1375,18 @@ Gestures will be ignored until the `Trigger Gesture` is activated. Once the `Tri
 <blockquote>
 
 It is not compatible by default, but manual modifications can be made to reach [optimization standards](https://docs.vrchat.com/docs/avatar-performance-ranking-system). It is possible to get down as far as Good rating, assuming you had a near Excellent rating model prior to clone generation. You would have to remove the HUD mesh, and modify the `Show Self` and `Hide Self` animation clips to matswap your body mesh to an invisible material instead of toggling the body mesh to prevent yourself from being permanently culled. Any other stat reductions are dependent on what avatar you choose to use with this system.
+
+</details>
+
+<details>
+
+  <summary> <strong> Is Carbon Copy compatible with SleightlyBall/WorldPhysics? </strong> </summary>
+
+######
+
+<blockquote>
+
+It is, as long as you leave the Clean Up module to remove the clone's Fixed Joints, which it does by default.
 
 </details>
 
