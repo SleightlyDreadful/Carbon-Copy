@@ -1483,3 +1483,7 @@ If you need help with using Carbon Copy, reach out in the designated **#support*
 ## Special Thanks
 
 **[ksivl](https://github.com/ksivl)** - For the knowledge regarding relational positioning world constraints that contributed to the development of the dynamic positioning of the clone via **Confirm**
+
+**[Quantum](https://github.com/Link250)** - For developing the [HUD shader](https://github.com/JustSleightly/ToggleHUD) over many months with JustSleightly just for this project to combat the loss of toggle indicators in the Expressions Menu due to memory optimization
+
+**[Joshuarox100](https://github.com/Joshuarox100)** - Whose logic in [Inventory Inventor](https://github.com/Joshuarox100/VRC-Inventory-Inventor) is directly used for the memory optimization in this system
