@@ -1386,7 +1386,9 @@ It is not compatible by default, but manual modifications can be made to reach [
 
 <blockquote>
 
-It is, as long as you leave the Clean Up module to remove the clone's Fixed Joints, which it does by default.
+SleightlyBall v1.0.0 works as long as you leave the Clean Up module to remove the clone's Fixed Joints, which it does by default. However, the clone's collision will not collide properly due to the World Physics fix being in the Gesture layer instead of FX, which Carbon Copy does not duplicate properties for.
+	
+To resolve this, you'll have to modify the animation clip in the Gesture layer that animates the sphere colliders by duplicating the properties for the clone's colliders instead. Feel free to reach out to JustSleightly in his server for further assistance with this.
 
 </details>
 
