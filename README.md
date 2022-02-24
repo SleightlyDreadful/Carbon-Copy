@@ -351,6 +351,8 @@ Allows generating multiple separate clones.
 
 ![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Multi%20Clone.png)
 
+To setup multiple clones, enable **Multi-Clone** and enter a unique suffix, then apply. You set them up one by one like this, and each clone needs to use a different suffix. Each clone has independent menus from one another, and can be configured with different settings. They each have their own parameters and memory cost.
+
 <details>
 
   <summary> <strong> Clone Suffix </strong> </summary>
@@ -1414,11 +1416,11 @@ Navigate through your project files to your Avatar's Generated Assets folder for
 
 <blockquote>
 
-Assuming you have a **commercial license** for Carbon Copy, you will want to export the respective Generated Assets folder and the Icons folder for Carbon Copy alongside the rest of your avatar package.
+Assuming you have a **commercial license** for Carbon Copy, you will want to export the respective Generated Assets folder and the Export folder for Carbon Copy alongside the rest of your avatar package.
 
 You can find these generated resources at ***Save File Path**/GeneratedAssets/*. By default, this is *Assets/DreadScripts/Carbon Copy/GeneratedAssets/*.
 
-The folder for the icons can be found at *Assets/DreadScripts/Carbon Copy/Icons*.
+The folder for the Export can be found at *Assets/DreadScripts/Carbon Copy/Export*.
 
 </details>
 
@@ -1442,7 +1444,7 @@ The folder for the icons can be found at *Assets/DreadScripts/Carbon Copy/Icons*
 
 <blockquote>
 
-Reach out to Dreadrith directly via DMs from [discord](https://discord.gg/ZsPfrGn/).
+Open a ticket on the [discord](https://discord.gg/ZsPfrGn/) server or contact Dreadrith#3238 through Discord.
 
 </details>
 
