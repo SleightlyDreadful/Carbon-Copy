@@ -1390,9 +1390,23 @@ It is not compatible by default, but manual modifications can be made to reach [
 
 SleightlyBall v1.0.0 works as long as you leave the Clean Up module to remove the clone's Fixed Joints, which it does by default. However, the clone's collision will not collide properly due to the World Physics fix being in the Gesture layer instead of FX, which Carbon Copy does not duplicate properties for.
 	
-To resolve this, you'll have to modify the animation clip in the Gesture layer that animates the sphere colliders by duplicating the properties for the clone's colliders instead. Feel free to reach out to JustSleightly in his server for further assistance with this.
+To resolve this, you'll have to modify the animation clip in the Gesture layer called Start Fix and duplicate this property to affect the clone's SB_Container as well. Feel free to reach out to JustSleightly in his server for further assistance with this.
 	
 This will be handled in an upcoming version of SleightlyBall.
+
+</details>
+
+<details>
+
+  <summary> <strong> Why do my particle systems have pink/missing material references? </strong> </summary>
+
+######
+
+<blockquote>
+
+Carbon Copy functions by rendering itself using the renderer property on all potential meshes. This includes the Particle System Renderer module, so if you have any particle systems that dont have the Renderer module enabled, then they will end up enabled by default even if there is no material/mesh there.
+
+To resolve this, go to any of these unused renderer modules on your particle systems and set their render mode to None.
 
 </details>
 
