@@ -86,7 +86,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 2. A **validated** license key for first time activation.
 	1. License keys can be purchased from the [store](https://dreadrith.gumroad.com/).
 2. An active **internet connection** while in Unity in order to use the tool - cannot be used offline.
-3. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. Windows 11 is not compatible at this time.
+3. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. **Windows 11 is now compatible.**
 4. Compatible with Unity 2019.
 5. Pre-requisite import - [VRCSDK3](https://vrchat.com/home/download) of at least 2021 compatible with your Unity version.
 
@@ -351,7 +351,9 @@ Allows generating multiple separate clones.
 
 ![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Multi%20Clone.png)
 
-To setup multiple clones, enable **Multi-Clone** and enter a unique suffix, then apply. You set them up one by one like this, and each clone needs to use a different suffix. Each clone has independent menus from one another, and can be configured with different settings. They each have their own parameters and memory cost.
+~~To setup multiple clones, enable **Multi-Clone** and enter a unique suffix, then apply. You set them up one by one like this, and each clone needs to use a different suffix.~~ **This is now automatic!** Just run the installer once per clone you'd like to add. 
+
+Each clone has independent menus from one another, and can be configured with different settings. They each have their own parameters and memory cost.
 
 <details>
 
