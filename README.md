@@ -5,15 +5,15 @@
 By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941619/931692584420638730/LogoCircular.png" width="" height="30">](https://ko-fi.com/dreadrith "Dreadrith") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://dreadrith.com/discord/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.com/Dreadrith/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://dreadrith.gumroad.com/ "Store") and JustSleightly 
 [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/JSLogo.png" width="30" height="30">](https://vrc.sleightly.dev/ "JustSleightly") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.sleightly.dev/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.sleightly.dev/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://store.sleightly.dev/ "Store")
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Gifs/CC%20Showcase%20Mirror-Multi.gif)
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Showcase%20Mirror-Multi.gif)
 
 **Carbon Copy** is a feature-rich constraint-based clone system built for **VRChat** users and designed with performers in mind. Its features are entirely customizable and modular while optimizing parameter memory, and can be installed with one-click without any VRChat 3.0 or advanced Unity experience whatsoever.
 
-With the earliest prototypes/teasers of the system dating back to 2020, we've spent over a year polishing these features for you...
+With the earliest prototypes/teasers of the system dating back to 2020, we've spent many years polishing these features for you...
 
 ## Available now on [gumroad](https://dreadrith.gumroad.com/)!
 
-<img src="https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Gifs/CC%20Showcase%20Swap-Bind.gif" height="239"> <img src="https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Default%20Window.png" height="239">
+<img src="https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Showcase%20Swap-Bind.gif" height="239"> <img src="https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Default%20Window.png" height="239">
 
 ### Features
 
@@ -46,17 +46,19 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 * On-screen **toggleable HUD** icons indicating what features are active without looking down or opening your menu
 * Toggleable **Gesture Control** for Gesture-Hold based activation of the core clone features
 * Toggleable **Jutsu Control** for Gesture-Combo-Toggle based activation of the core clone features
-* Swap between two kinds of **Freeze Behaviors** regarding how Dynamic Bones are handled
-* Toggle whether **Dynamic Bones Invert** while in Mirror Vertical mode
+* Swap between two kinds of **Freeze Behaviors** regarding how Dynamic bones are handled
+* Toggle whether **Dynamic and PhysBones Invert** while in Mirror Vertical mode
+* Automatically shrinks the clone's head when near your own during swap locally
 
 #### Tool Features
 
-* Supports running the script multiple times for **multiple clones on the same avatar** via **Suffixing**
+* Supports running the script multiple times for **multiple clones on the same avatar** automatically
 * Can replicate your **lip-sync visemes** to your clone
 * Can **automatically copy all animations** to your clone without using more layers (supports blendtrees and sub-state-machines)
 * Can **automatically remove certain component types** from the clone
 * **Automatic Write Defaults detection** and compatibility with both on/off
-* **Automatically disable facial expressions** while use gesture/jutsu control
+* **Automatically disable facial expressions** while using gesture/jutsu control
+* **Automatically adds descriptor colliders and senders** to the clone and includes them in PhysBones with *Allow Collision*
 * **Automatically optimizes your parameter memory** saving up to 20 memory other systems would use. **Up to 28/29 (96%)** of the menu options fit **within 8 memory!**
 * System can be removed with **one-click removal**
 
@@ -74,7 +76,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 <blockquote>
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Gifs/CC%20Full%20Window%20Demo.gif)
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Full%20Window%20Demo.gif)
 
 </details>
 
@@ -88,7 +90,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 2. An active **internet connection** while in Unity in order to use the tool - cannot be used offline.
 3. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. **Windows 11 is now compatible.**
 4. Compatible with Unity 2019.
-5. Pre-requisite import - [VRCSDK3](https://vrchat.com/home/download) of at least 2021 compatible with your Unity version.
+5. Pre-requisite import - [VRCSDK3](https://vrchat.com/home/download) which is now distributed via VRChat Creator Companion.
 
 ---
 
@@ -112,7 +114,7 @@ If you have never used this on this PC before, you will see a field labeled **En
 
 <blockquote>
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Main.png)
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Main.png)
 
 <details>
 
@@ -181,6 +183,22 @@ Select the HDR color and opacity of the HUD that will be displayed.
 
 </details>
 
+<details>
+
+  <summary> <strong> Existing Clones </strong> </summary>
+
+######
+
+<blockquote>
+
+Lists any existing clones on the currently selected Avatar.
+
+Clicking an existing clone's name will now highlight it.
+
+Existing clones can be hidden and unhidden with the eye icon next to their names.
+
+</details>
+
 ######
 
 </details>
@@ -193,7 +211,9 @@ Select the HDR color and opacity of the HUD that will be displayed.
 
 <blockquote>
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Scaling.png)
+Adds scaling functionality to your clone. Uses +8 Memory. Enabled by default.
+
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Scaling.png)
 
 <details>
 
@@ -237,6 +257,73 @@ The minimum or maximum scale percentage the clone can be scaled to.
 
 <details>
 
+  <summary> <strong> Proxy </strong> </summary>
+
+######
+
+<blockquote>
+
+Allows using a different humanoid Avatar as the clone.
+
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Proxy.png)
+
+<details>
+
+  <summary> <strong> Proxy Type </strong> </summary>
+
+######
+
+<blockquote>
+
+| | | 
+| :------------- | :------------- |
+| `Model Only` | Merge avatar model only without any FX animations/menus |
+| `FX Avatar Merge` | Merge entire avatar as a clone including FX functionality and menus. Will increase required expression parameter memory by the Proxy's memory usage. | 
+
+</details>
+
+<details>
+
+  <summary> <strong> Clone FX </strong> </summary>
+
+######
+
+<blockquote>
+
+FX layer Animations will affect the clone as well if the hierarchy matches. Allows your clone to do the same animations as you. Incompatible with Proxy FX Avatar Merge.
+
+</details>
+
+<details>
+
+  <summary> <strong> Proxy Avatar </strong> </summary>
+
+######
+
+<blockquote>
+
+The Avatar to be used as the clone in Carbon Copy. Requires a humanoid Avatar to use as a clone for CarbonCopy.
+
+</details>
+
+<details>
+
+  <summary> <strong> Force T-Pose </strong> </summary>
+
+######
+
+<blockquote>
+
+Forces the two avatars into a T-Pose, this will help making the constraints on the clone be more accurate.
+
+</details>
+
+######
+
+</details>
+
+<details>
+
   <summary> <strong> Preferences </strong> </summary>
 
 ######
@@ -245,7 +332,7 @@ The minimum or maximum scale percentage the clone can be scaled to.
 
 Select whether the below settings will be saved to persist across instances and avatar loads, and if they are enabled or disabled by default.
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Preferences.png)
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Preferences.png)
 
 <details>
 
@@ -291,79 +378,19 @@ When enabled, a HUD displays on the screen to show you your current active funct
 
 <blockquote>
 
-When enabled, **Freeze** will disable the Dynamic Bones instead of stopping their movement. Disabling dynamic bones makes their transforms reset to their original stiff position.
+This will not affect PhysBones. When enabled, **Freeze** will disable the Dynamic Bones instead of stopping their movement. Disabling dynamic bones makes their transforms reset to their original stiff position.
 
 </details>
 
 <details>
 
-  <summary> <strong> Vertical Inverts Dynamic Bones Gravity </strong> </summary>
+  <summary> <strong> Vertical Inverts Dynamic & PhysBones Gravity </strong> </summary>
 
 ######
 
 <blockquote>
 
-When enabled, **Vertical Mirror** will invert the gravity/force on Dynamic Bones.
-
-</details>
-
-######
-
-</details>
-
-<details>
-
-  <summary> <strong> Proxy </strong> </summary>
-
-######
-
-<blockquote>
-
-Allows using a different humanoid Avatar as the clone.
-
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Proxy.png)
-
-<details>
-
-  <summary> <strong> Clone Avatar </strong> </summary>
-
-######
-
-<blockquote>
-
-The Avatar to be used as the clone in Carbon Copy. Requires a humanoid Avatar to use as a clone for CarbonCopy.
-
-</details>
-
-######
-
-</details>
-
-<details>
-
-  <summary> <strong> Multi-Clone </strong> </summary>
-
-######
-
-<blockquote>
-
-Allows generating multiple separate clones.
-
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Multi%20Clone.png)
-
-~~To setup multiple clones, enable **Multi-Clone** and enter a unique suffix, then apply. You set them up one by one like this, and each clone needs to use a different suffix.~~ **This is now automatic!** Just run the installer once per clone you'd like to add. 
-
-Each clone has independent menus from one another, and can be configured with different settings. They each have their own parameters and memory cost.
-
-<details>
-
-  <summary> <strong> Clone Suffix </strong> </summary>
-
-######
-
-<blockquote>
-
-Requires a Suffix to add to the extra clone to avoid conflicts between your clones. Each clone must have a unique Suffix.
+When enabled, **Vertical Mirror** will invert the gravity/force on Dynamic & PhysBones.
 
 </details>
 
@@ -379,7 +406,7 @@ Requires a Suffix to add to the extra clone to avoid conflicts between your clon
 
 <blockquote>
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Configuration.png)
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Configuration.png)
 
 <details>
 
@@ -395,21 +422,21 @@ Define how many simulated frames the clone should have when you enable **Lag** i
 
 <details>
 
-  <summary> <strong> Dynamic Bone Handling </strong> </summary>
+  <summary> <strong> PhysBone Handling </strong> </summary>
 
 ######
 
 <blockquote>
 
-How to deal with Dynamic Bones that exist on the humanoid armature.
+How to deal with Dynamic and PhysBones that exist on the humanoid armature.
 
 ######
 
 | Option | Description |
 | :------------- | :------------- |
-| `Regenerate` | Recursively apply the same Dynamic Bone to its children until it's not a humanoid bone |
+| `Regenerate` | Recursively apply the same PhysBone to its children until it's not a humanoid bone |
 | `Ignore` | Don't apply the mimic or mirror constraint logic to these bones |
-| `Apply Anyway` | Pretend there's no Dynamic Bone |
+| `Apply Anyway` | Pretend there's no PhysBone |
 
 </details>
 
@@ -440,7 +467,7 @@ What the last extra Binding button should bind to.
 
 <blockquote>
 
-FX layer Animations will affect the clone as well. Allows your clone to do the same animations as you.
+FX layer Animations will affect the clone as well. Allows your clone to do the same animations as you. Incompatible with Proxy FX Avatar Merge.
 
 </details>
 
@@ -476,7 +503,43 @@ Sets your facial expressions to the idle state when Gesture or Jutsu controls ar
 
 <blockquote>
 
-Replaces Dynamic Bones with Rotation Constraints on **Mimic**. Incompatible with **Mirror**, and is disabled if `Mimic + Mirror` is selected under **Clone Type**.
+Replaces Dynamic & PhysBones with Rotation Constraints on **Mimic**. Incompatible with **Mirror**, and is disabled if `Mimic + Mirror` is selected under **Clone Type**.
+
+</details>
+
+<details>
+
+  <summary> <strong> Descriptor Colliders </strong> </summary>
+
+######
+
+<blockquote>
+
+Adds colliders to the Clone's hands and fingers based on the avatar descriptor's colliders.
+
+</details>
+
+<details>
+
+  <summary> <strong> Descriptor Senders </strong> </summary>
+
+######
+
+<blockquote>
+
+Adds contact senders to the clone based on the avatar descriptor's colliders.
+
+</details>
+
+<details>
+
+  <summary> <strong> Clean FX Controller </strong> </summary>
+
+######
+
+<blockquote>
+
+FX Controller will be optimized in size by removing any sub-asset that's not used in the controller. This feature is available for manual use in [Controller Editor](https://notes.sleightly.dev/controllereditor/).
 
 </details>
 
@@ -489,6 +552,20 @@ Replaces Dynamic Bones with Rotation Constraints on **Mimic**. Incompatible with
 <blockquote>
 
 Set the Write Defaults that Carbon Copy will generate its animator states with. This will attempt to be automatically detected based on your existing FX playable layer.
+
+</details>
+
+<details>
+
+  <summary> <strong> Generated Assets Path </strong> </summary>
+
+######
+
+<blockquote>
+
+Define where all the newly generated folders and assets will be generated.
+
+By default, this is *Assets/DreadScripts/Carbon Copy/GeneratedAssets/*.
 
 </details>
 
@@ -506,7 +583,7 @@ Set the Write Defaults that Carbon Copy will generate its animator states with. 
 
 Optional mass-removal of components from the generated clone.
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Clean%20Up.png)
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Clean%20Up.png)
 
 <details>
 
@@ -558,15 +635,49 @@ Removes all Collider components on the clone.
 
 <details>
 
-  <summary> <strong> Remove Clone Dynamic Bones </strong> </summary>
+  <summary> <strong> Remove Clone Lights </strong> </summary>
 
 ######
 
 <blockquote>
 
-Removes all Dynamic Bone and Dynamic Bone Collider components on the clone.
+Removes all Light components on the clone.
 
 </details>
+
+<details>
+
+  <summary> <strong> Remove Clone PhysBones </strong> </summary>
+
+######
+
+<blockquote>
+
+Removes all PhysBone and PhysBone Collider components on the clone.
+
+</details>
+
+######
+
+</details>
+
+<details>
+
+  <summary> <strong> Multi-Clone </strong> </summary>
+
+######
+
+<blockquote>
+
+Allows generating multiple separate clones.
+
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Multi%20Clone.png)
+
+~~To setup multiple clones, enable **Multi-Clone** and enter a unique suffix, then apply. You set them up one by one like this, and each clone needs to use a different suffix.~~ 
+
+**Multi-Clones are now automatic!** Re-run the script on an avatar with Carbon Copy and it'll automatically handle creating a new separate clone. 
+
+Each clone has independent menus from one another, and can be configured with different settings. They each have their own parameters and memory cost.
 
 ######
 
@@ -582,9 +693,9 @@ Removes all Dynamic Bone and Dynamic Bone Collider components on the clone.
 
 Click to apply Carbon Copy according to all the inputs above.
 
-After generation, the clone will appear as enabled, and a **Hide Avatar** button will appear next to **Apply Carbon Copy**. Click **Hide Avatar** to disable the clone and finalize setup.
+After generation, the clone will appear as enabled, and a **Hide Avatar** button will appear in place of **Apply Carbon Copy**. Click **Hide Avatar** to disable the clone and finalize setup.
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Utilities.png)
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Utilities.png)
 
 </details>
 
@@ -596,19 +707,7 @@ After generation, the clone will appear as enabled, and a **Hide Avatar** button
 
 <blockquote>
 
-![](https://github.com/Dreadrith/Carbon-Copy/blob/main/Documentation/Images/CC%20Utilities.png)
-
-<details>
-
-  <summary> <strong> Log </strong> </summary>
-
-######
-
-<blockquote>
-
-A basic step log in the console. This is useful for reporting an issue or bug with the tool so we can know where the issue stems from.
-
-</details>
+![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Utilities.png)
 
 <details>
 
@@ -652,6 +751,18 @@ Please populate an avatar to generate Carbon Copy on.
 
 <details>
 
+  <summary> <strong> Avatar Position/Rotation is not at (0,0,0)! </strong> </summary>
+
+######
+
+<blockquote>
+
+Press **Fix** to center your Avatar at the origin to prevent world constraint issues.
+
+</details>
+
+<details>
+
   <summary> <strong> Avatar doesn't have an Animator Component </strong> </summary>
 
 ######
@@ -688,7 +799,7 @@ The avatar's rig is not set to humanoid in Unity. Please set it to humanoid and 
 
 <details>
 
-  <summary> <strong> Clone Avatar not set </strong> </summary>
+  <summary> <strong> Proxy Avatar not set </strong> </summary>
 
 ######
 
@@ -702,7 +813,7 @@ Please populate a proxy avatar to generate Carbon Copy on.
 
 <details>
 
-  <summary> <strong> Clone Avatar requires an Avatar Asset in the Animator </strong> </summary>
+  <summary> <strong> Proxy Avatar requires an Avatar Asset in the Animator </strong> </summary>
 
 ######
 
@@ -742,7 +853,7 @@ Expression Disabling and LipSync will be ignored.
 
 <details>
 
-  <summary> <strong> The Following Clips Have Render toggling properties </strong> </summary>
+  <summary> <strong> Mesh Renderer Toggles Detected </strong> </summary>
 
 ######
 
@@ -800,6 +911,20 @@ This is an uncommon bug due to the changing of Avatars in your Animator componen
 
 </details>
 
+<details>
+
+  <summary> <strong> TPose Controller with WD On on the topmost default state! </strong> </summary>
+
+######
+
+<blockquote>
+
+Having write defaults on in the default state of the first layer of your T-Pose controller may sometimes cause obscure issues. This has been observed with Carbon Copy where the Clone would not appear in mirrors nor cameras locally.
+
+Press **Fix** to set the write defaults on this state off.
+
+</details>
+
 </details>
 
 <details>
@@ -810,7 +935,11 @@ This is an uncommon bug due to the changing of Avatars in your Animator componen
 
 <blockquote>
 
-Removes Carbon Copy. 
+Clean Up: Removes Carbon Copy from affected assets
+
+Revert: Reverts affected assets to the originals prior to applying Carbon Copy
+
+Both Remove Carbon Copy:
 
 * Deletes the CCopy World Space.
 * Removes all Carbon Copy Parameters.
@@ -819,20 +948,6 @@ Removes Carbon Copy.
 Note that the clean up doesn't delete assets in the Generated Assets folder as to avoid deleting any important files. It also does not remove any properties from animation clips or paths in masks that it previously added.
 
 For a clean rollback, simply use your original assets again. Carbon Copy uses a copy of all assets so that no modification is permanent.  
-
-</details>
-
-<details>
-
-  <summary> <strong> Generated Assets Path </strong> </summary>
-
-######
-
-<blockquote>
-
-Define where all the newly generated folders and assets will be generated.
-
-By default, this is *Assets/DreadScripts/Carbon Copy/GeneratedAssets/*.
 
 </details>
 
@@ -1000,7 +1115,7 @@ Overrides **Hide**.
 
 <blockquote>
 
-Resets Ccone's position and rotation to where you currently are. Disables **Confirm**.
+Resets Clone's position and rotation to where you currently are. Disables **Confirm**.
 
 If clone is disabled, sets down an anchor which can be used to make the **Mimic** clone spawn at that location right away.
 	
@@ -1176,19 +1291,23 @@ Overrides **Hide**. Replaces **Lag** if active.
 
 Toggles whether **Freeze** should disable the Dynamic Bones or attempt to stop their movement.
 
+This option does not appear if the clone does not have Dynamic Bones.
+
 This option is not available if **Optimize Clone** was used.
 
 </details>
 
 <details>
 
-  <summary> <strong> Dynamics Invert </strong> </summary>
+  <summary> <strong> Dyn Invert </strong> </summary>
 
 ######
 
 <blockquote>
 
-Toggles whether **Vertical** mirror will cause Dynamic bones to invert gravity.
+Toggles whether **Vertical** mirror will cause Dynamic and PhysBones to invert gravity.
+
+Inverted PhysBone gravity will only take effect once the clone is re-enabled.
 
 This option is not available if Carbon Copy was generated as `Mimic Only`.
 
@@ -1384,22 +1503,6 @@ It is not compatible by default, but manual modifications can be made to reach [
 
 <details>
 
-  <summary> <strong> Is Carbon Copy compatible with SleightlyBall/WorldPhysics? </strong> </summary>
-
-######
-
-<blockquote>
-
-SleightlyBall v1.0.0 works as long as you leave the Clean Up module to remove the clone's Fixed Joints, which it does by default. However, the clone's collision will not collide properly due to the World Physics fix being in the Gesture layer instead of FX, which Carbon Copy does not duplicate properties for.
-	
-To resolve this, you'll have to modify the animation clip in the Gesture layer called Start Fix and duplicate this property to affect the clone's SB_Container as well. Feel free to reach out to JustSleightly in his server for further assistance with this.
-	
-This will be handled in an upcoming version of SleightlyBall.
-
-</details>
-
-<details>
-
   <summary> <strong> Why do my particle systems have pink/missing material references? </strong> </summary>
 
 ######
@@ -1409,6 +1512,32 @@ This will be handled in an upcoming version of SleightlyBall.
 Carbon Copy functions by rendering itself using the renderer property on all potential meshes. This includes the Particle System Renderer module, so if you have any particle systems that dont have the Renderer module enabled, then they will end up enabled by default even if there is no material/mesh there.
 
 To resolve this, go to any of these unused renderer modules on your particle systems and set their render mode to None.
+
+</details>
+
+<details>
+
+  <summary> <strong> Why does my clone jitter in mirrors/cameras? </strong> </summary>
+
+######
+
+<blockquote>
+
+This is a side effect of the performance optimization implemented in Carbon Copy starting from version 1.2.5 that significantly improves performance for the wearer with no change to others.
+
+To remove this performance optimization and jitter, you can delete the `CarbonCopy Optimizer` layer in the FX controller.
+
+</details>
+
+<details>
+
+  <summary> <strong> Why does my clone head have frozen PhysBones in mirrors? </strong> </summary>
+
+######
+
+<blockquote>
+
+Due to the way mirrors work in VRChat, the local head hiding of your clone when it's near your head causes PhysBones in the mirror to freeze
 
 </details>
 
@@ -1432,11 +1561,9 @@ Navigate through your project files to your Avatar's Generated Assets folder for
 
 <blockquote>
 
-Assuming you have a **commercial license** for Carbon Copy, you will want to export the respective Generated Assets folder and the Export folder for Carbon Copy alongside the rest of your avatar package.
+Assuming you have a **commercial license** for Carbon Copy, you will want to export the respective Generated Assets folder for your avatar alongside the rest of your avatar package.
 
 You can find these generated resources at ***Save File Path**/GeneratedAssets/*. By default, this is *Assets/DreadScripts/Carbon Copy/GeneratedAssets/*.
-
-The folder for the Export can be found at *Assets/DreadScripts/Carbon Copy/Export*.
 
 </details>
 
@@ -1448,7 +1575,7 @@ The folder for the Export can be found at *Assets/DreadScripts/Carbon Copy/Expor
 
 <blockquote>
 
-**Yes**, in the event you change hardware, you can reach out to Dreadrith on [discord](https://discord.gg/ZsPfrGn/) directly in DMs.
+**Yes**, in the event you change hardware, you can reach out to Dreadrith on [discord](https://dreadrith.com/discord/) and open a ticket.
 
 </details>
 
@@ -1460,7 +1587,7 @@ The folder for the Export can be found at *Assets/DreadScripts/Carbon Copy/Expor
 
 <blockquote>
 
-Open a ticket on the [discord](https://discord.gg/ZsPfrGn/) server or contact Dreadrith#3238 through Discord.
+Open a ticket on the [discord](https://dreadrith.com/discord/).
 
 </details>
 
@@ -1472,7 +1599,7 @@ Open a ticket on the [discord](https://discord.gg/ZsPfrGn/) server or contact Dr
 
 <blockquote>
 
-You can add issues to this github repository, or post it in the **#bug-report** channel for Carbon Copy on [discord](https://discord.gg/ZsPfrGn/).
+You can add issues to this github repository, or post it in the **#bug-report** channel for Carbon Copy on [discord](https://dreadrith.com/discord/).
 
 </details>
 
@@ -1484,7 +1611,7 @@ You can add issues to this github repository, or post it in the **#bug-report** 
 
 <blockquote>
 
-Feel free to leave these in the **#suggestions** channel on [discord](https://discord.gg/ZsPfrGn/) and we can discuss them in more detail.
+Feel free to leave these in the **#suggestions** channel on [discord](https://dreadrith.com/discord/) and we can discuss them in more detail.
 
 </details>
 
@@ -1496,7 +1623,7 @@ Feel free to leave these in the **#suggestions** channel on [discord](https://di
 
 <blockquote>
 
-If you need help with using Carbon Copy, reach out in the designated **#support** channel on [discord](https://discord.gg/ZsPfrGn/) so we or a community member can help.
+If you need help with using Carbon Copy, reach out in the designated **#support** channel on [discord](https://dreadrith.com/discord/) so we or a community member can help.
 
 </details>
 
