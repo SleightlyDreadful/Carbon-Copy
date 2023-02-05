@@ -22,9 +22,9 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 | Specifications | Stats |
 | :------------- | :-------------: |
 | `Memory` | 9 - 23 |
-| `Icons` | 39 |
-| `Animations` | 95 |
-| `FX Layers` | 27 |
+| `Icons` | 38 |
+| `Animations` | 106 |
+| `FX Layers` | 30 |
 
 #### System Features
 
