@@ -23,8 +23,8 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 | :------------- | :-------------: |
 | `Memory` | 9 - 23 |
 | `Icons` | 38 |
-| `Animations` | 106 |
 | `FX Layers` | 30 |
+| `Animation Clips` | 106 |
 
 #### System Features
 
