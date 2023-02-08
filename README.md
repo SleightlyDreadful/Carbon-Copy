@@ -1,8 +1,8 @@
 # Carbon Copy
 
-[![GitHub stars](https://img.shields.io/github/stars/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/stargazers) [![GitHub Tags](https://img.shields.io/github/tag/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/tags) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Dreadrith/Carbon-Copy?include_prereleases)](https://github.com/Dreadrith/Carbon-Copy/releases) [![GitHub issues](https://img.shields.io/github/issues/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/commits/main) [![Discord](https://img.shields.io/discord/750880531293536328)](https://discord.gg/ZsPfrGn)
+[![GitHub stars](https://img.shields.io/github/stars/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/stargazers) [![GitHub Tags](https://img.shields.io/github/tag/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/tags) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Dreadrith/Carbon-Copy?include_prereleases)](https://github.com/Dreadrith/Carbon-Copy/releases) [![GitHub issues](https://img.shields.io/github/issues/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/commits/main) [![Discord](https://img.shields.io/discord/750880531293536328)](https://dreadrith.com/discord/)
 
-By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941619/931692584420638730/LogoCircular.png" width="" height="30">](https://ko-fi.com/dreadrith "Dreadrith") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://dreadrith.com/discord/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.com/Dreadrith/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://dreadrith.gumroad.com/ "Store") and JustSleightly 
+By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941619/931692584420638730/LogoCircular.png" width="" height="30">](https://dreadrith.com/links "Dreadrith") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://dreadrith.com/discord/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://dreadrith.com/github "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://dreadrith.com/ "Store") and JustSleightly 
 [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/JSLogo.png" width="30" height="30">](https://vrc.sleightly.dev/ "JustSleightly") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.sleightly.dev/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.sleightly.dev/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://store.sleightly.dev/ "Store")
 
 ![](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Showcase%20Mirror-Multi.gif)
@@ -11,7 +11,7 @@ By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941
 
 With the earliest prototypes/teasers of the system dating back to 2020, we've spent many years polishing these features for you...
 
-## Available now on [gumroad](https://dreadrith.gumroad.com/)!
+## Available now on [gumroad](https://dreadrith.com/)!
 
 <img src="https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Showcase%20Swap-Bind.gif" height="239"> <img src="https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Default%20Window.png" height="239">
 
@@ -38,7 +38,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 * Control where your clone appears before it's visible with **Anchor**
 * Pick up, grab, or **bind** your clone to different parts of your body
 * Pass your clone like a spring-joint ball between your hands or orbiting around your body
-* Supports custom bind targets, such as other bones, props, or even full compatibility with other systems like [this one](https://github.sleightly.dev/SleightlyBall)
+* Supports custom bind targets, such as other bones, props, or even full compatibility with other systems like [this one](https://github.sleightly.dev/sleightlyball)
 * Intentionally **lag** your clone by dropping its simulated FPS as a bonus effect
 * **Scale** your clone up or down to whatever % you configure
 * Control whether your clone follows your movement proportionally or not on the **Y axis** or **XZ plane**
@@ -86,7 +86,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 1. Basic Unity experience + VRChat SDK3 uploading experience.
 2. A **validated** license key for first time activation.
-	1. License keys can be purchased from the [store](https://dreadrith.gumroad.com/).
+	1. License keys can be purchased from the [store](https://dreadrith.com/).
 2. An active **internet connection** while in Unity in order to use the tool - cannot be used offline.
 3. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. **Windows 11 is now compatible.**
 4. Compatible with Unity 2019.
@@ -605,7 +605,7 @@ Removes all Camera components on the clone.
 
 <blockquote>
 
-Removes all Fixed Joint components on the clone. This is particularly used to make world physics fixes like [SleightlyBall](https://github.sleightly.dev/SleightlyBall) compatible on clones.
+Removes all Fixed Joint components on the clone. This is particularly used to make world physics fixes like [SleightlyBall](https://github.sleightly.dev/sleightlyball) compatible on clones.
 
 </details>
 
@@ -1633,6 +1633,6 @@ If you need help with using Carbon Copy, reach out in the designated **#support*
 
 **[ksivl](https://github.com/ksivl)** - For the knowledge regarding relational positioning world constraints that contributed to the development of the dynamic positioning of the clone via **Confirm**
 
-**[Quantum](https://github.com/Link250)** - For developing the [HUD shader](https://github.com/JustSleightly/ToggleHUD) over many months with JustSleightly just for this project to combat the loss of toggle indicators in the Expressions Menu due to memory optimization
+**[Quantum](https://github.com/Link250)** - For developing the [HUD shader](https://github.sleightly.dev/togglehud) over many months with JustSleightly just for this project to combat the loss of toggle indicators in the Expressions Menu due to memory optimization
 
 **[Joshuarox100](https://github.com/Joshuarox100)** - Whose logic in [Inventory Inventor](https://github.com/Joshuarox100/VRC-Inventory-Inventor) is directly used for the memory optimization in this system
