@@ -46,8 +46,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 * On-screen **toggleable HUD** icons indicating what features are active without looking down or opening your menu
 * Toggleable **Gesture Control** for Gesture-Hold based activation of the core clone features
 * Toggleable **Jutsu Control** for Gesture-Combo-Toggle based activation of the core clone features
-* Swap between two kinds of **Freeze Behaviors** regarding how Dynamic bones are handled
-* Toggle whether **Dynamic and PhysBones Invert** while in Mirror Vertical mode
+* Toggle whether **PhysBones Invert** while in Mirror Vertical mode
 * Automatically shrinks the clone's head when near your own during swap locally
 
 #### Tool Features
@@ -87,10 +86,9 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 1. Basic Unity experience + VRChat SDK3 uploading experience.
 2. A **validated** license key for first time activation.
 	1. License keys can be purchased from the [store](https://dreadrith.com/).
-2. An active **internet connection** while in Unity in order to use the tool - cannot be used offline.
-3. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. **Windows 11 is now compatible.**
-4. Compatible with Unity 2019.
-5. Pre-requisite import - [VRCSDK3](https://vrchat.com/home/download) which is now distributed via VRChat Creator Companion.
+3. An active **internet connection** while in Unity in order to use the tool - cannot be used offline.
+4. Only compatible with Unity for **Windows** - not compatible with Unity for Mac/Linux at this time. **Windows 11 is now compatible.**
+5. Pre-requisite import - [VRChat Creator Companion SDK](https://vrchat.com/home/download) version `3.1.13` or newer.
 
 ---
 
@@ -105,6 +103,10 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 Carbon Copy can be accessed from the top toolbar by clicking **DreadTools > Carbon Copy**.
 
 If you have never used this on this PC before, you will see a field labeled **Enter your license key**. Input your license key from your purchase and click activate. This is a one-time-use key that will authorize the current PC for future use of Carbon Copy.
+
+You will also be prompted to come up with a security question and password. These will be used if you ever need to reset/transfer your license, so please remember your selection. Please don't use any sensitive information for your responses.
+
+If your license key is not working due to it already being in use, click the *Transfer License* option.
 
 <details>
 
@@ -372,25 +374,13 @@ When enabled, a HUD displays on the screen to show you your current active funct
 
 <details>
 
-  <summary> <strong> Freeze Disables Dynamic Bones </strong> </summary>
+  <summary> <strong> Vertical Inverts PhysBones Gravity </strong> </summary>
 
 ######
 
 <blockquote>
 
-This will not affect PhysBones. When enabled, **Freeze** will disable the Dynamic Bones instead of stopping their movement. Disabling dynamic bones makes their transforms reset to their original stiff position.
-
-</details>
-
-<details>
-
-  <summary> <strong> Vertical Inverts Dynamic & PhysBones Gravity </strong> </summary>
-
-######
-
-<blockquote>
-
-When enabled, **Vertical Mirror** will invert the gravity/force on Dynamic & PhysBones.
+When enabled, **Vertical Mirror** will invert the gravity/force on PhysBones.
 
 </details>
 
@@ -428,7 +418,7 @@ Define how many simulated frames the clone should have when you enable **Lag** i
 
 <blockquote>
 
-How to deal with Dynamic and PhysBones that exist on the humanoid armature.
+How to deal with PhysBones that exist on the humanoid armature.
 
 ######
 
@@ -503,7 +493,7 @@ Sets your facial expressions to the idle state when Gesture or Jutsu controls ar
 
 <blockquote>
 
-Replaces Dynamic & PhysBones with Rotation Constraints on **Mimic**. Incompatible with **Mirror**, and is disabled if `Mimic + Mirror` is selected under **Clone Type**.
+Replaces PhysBones with Rotation Constraints on **Mimic**. Incompatible with **Mirror**, and is disabled if `Mimic + Mirror` is selected under **Clone Type**.
 
 </details>
 
@@ -1283,29 +1273,13 @@ Overrides **Hide**. Replaces **Lag** if active.
 
 <details>
 
-  <summary> <strong> Freeze Behavior </strong> </summary>
-
-######
-
-<blockquote>
-
-Toggles whether **Freeze** should disable the Dynamic Bones or attempt to stop their movement.
-
-This option does not appear if the clone does not have Dynamic Bones.
-
-This option is not available if **Optimize Clone** was used.
-
-</details>
-
-<details>
-
   <summary> <strong> Dyn Invert </strong> </summary>
 
 ######
 
 <blockquote>
 
-Toggles whether **Vertical** mirror will cause Dynamic and PhysBones to invert gravity.
+Toggles whether **Vertical** mirror will cause PhysBones to invert gravity.
 
 Inverted PhysBone gravity will only take effect once the clone is re-enabled.
 
@@ -1575,7 +1549,19 @@ You can find these generated resources at ***Save File Path**/GeneratedAssets/*.
 
 <blockquote>
 
-**Yes**, in the event you change hardware, you can reach out to Dreadrith on [discord](https://dreadrith.com/discord/) and open a ticket.
+**Yes**, in the event you change hardware, you can use the **Transfer License** option when trying to verify your license key in Unity on the new hardware. This will require your license key, security question, and security answer. There is a cooldown period to prevent abuse, and these logs will be monitored for misuse. If you need to re-transfer sooner than this transfer period, open a support ticket on [discord](https://dreadrith.com/discord/).
+
+</details>
+
+<details>
+
+  <summary> <strong> Can I upgrade my personal license? </strong> </summary>
+
+######
+
+<blockquote>
+
+**Yes**, open a support ticket on [discord](https://discord.sleightly.dev/) and we can get that process started for you.
 
 </details>
 
@@ -1587,7 +1573,7 @@ You can find these generated resources at ***Save File Path**/GeneratedAssets/*.
 
 <blockquote>
 
-Open a ticket on the [discord](https://dreadrith.com/discord/).
+Open a ticket on [discord](https://dreadrith.com/discord/).
 
 </details>
 
@@ -1623,7 +1609,7 @@ Feel free to leave these in the **#suggestions** channel on [discord](https://dr
 
 <blockquote>
 
-If you need help with using Carbon Copy, reach out in the designated **#support** channel on [discord](https://dreadrith.com/discord/) so we or a community member can help.
+If you need help with using Carbon Copy, reach out in the designated **#support** channel on [discord](https://dreadrith.com/discord/) so we or a community member can help. If you have private issues involving purchase details, open up a ticket instead.
 
 </details>
 
