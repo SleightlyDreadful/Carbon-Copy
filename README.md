@@ -949,7 +949,35 @@ For a clean rollback, simply use your original assets again. Carbon Copy uses a 
 
 <blockquote>
 
-Checks for any updates to Carbon Copy. Notifies you if there is one, and allows quick and easy download/import. Checks automatically once per day when opening the project.
+Click the three lines next to the version number in the bottom left to check for any updates to Carbon Copy. Notifies you if there is one, and allows quick and easy download/import. Checks automatically once per day when opening the project.
+
+</details>
+
+<details>
+
+  <summary> <strong> Send Feedback </strong> </summary>
+
+######
+
+<blockquote>
+
+Click the three lines next to the version number in the bottom left to send feedback for Carbon Copy straight from Unity.
+
+</details>
+
+<details>
+
+  <summary> <strong> Verify </strong> </summary>
+
+######
+
+<blockquote>
+
+Click the three lines next to the version number in the bottom left to select when Carbon Copy verifies authentication.
+
+On Display initiates authentication when the window is opened.
+
+On Project Load initiates authentication when the project is opened.
 
 </details>
 
