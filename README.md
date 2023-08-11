@@ -591,7 +591,7 @@ After generation, the clone will appear as enabled, and a **Hide Avatar** button
 ​
 <blockquote>
 
-Hovering over the Memory Cost will tell you what's using memory. You must have enough memory to install Cargon Copy. You may enable or disable certain features that contribute to the cost.
+Hovering over the Memory Cost will tell you what's using memory. You must have enough memory to install Carbon Copy. You may enable or disable certain features that contribute to the cost.
 
 | Feature | Memory Cost |
 | :------------- | :------------- |
