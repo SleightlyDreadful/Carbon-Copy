@@ -599,7 +599,7 @@ Hovering over the Memory Cost will tell you what's using memory. You must have e
 | `HUD + Cull` | 1 |
 | `Scale` | 8 |
 | `Stabilize Scale` | 1 |
-| `Saved Preferences` | 0 - 5 |
+| `Saved Preferences` | 0 - 4 |
 
 </details>
 
