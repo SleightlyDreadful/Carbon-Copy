@@ -1,11 +1,11 @@
 # Carbon Copy
 
-[![GitHub stars](https://img.shields.io/github/stars/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/stargazers) [![GitHub Tags](https://img.shields.io/github/tag/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/tags) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Dreadrith/Carbon-Copy?include_prereleases)](https://github.com/Dreadrith/Carbon-Copy/releases) [![GitHub issues](https://img.shields.io/github/issues/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/Dreadrith/Carbon-Copy)](https://github.com/Dreadrith/Carbon-Copy/commits/main) [![Discord](https://img.shields.io/discord/750880531293536328)](https://dreadrith.com/discord/)
+[![GitHub stars](https://img.shields.io/github/stars/Dreadrith/Carbon-Copy)](https://github.com/SleightlyDreadful/Carbon-Copy/stargazers) [![GitHub Tags](https://img.shields.io/github/tag/Dreadrith/Carbon-Copy)](https://github.com/SleightlyDreadful/Carbon-Copy/tags) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Dreadrith/Carbon-Copy?include_prereleases)](https://github.com/SleightlyDreadful/Carbon-Copy/releases) [![GitHub issues](https://img.shields.io/github/issues/Dreadrith/Carbon-Copy)](https://github.com/SleightlyDreadful/Carbon-Copy/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/Dreadrith/Carbon-Copy)](https://github.com/SleightlyDreadful/Carbon-Copy/commits/main) [![Discord](https://img.shields.io/discord/750880531293536328)](https://dreadrith.com/discord/)
 
 By Dreadrith [<img src="https://media.discordapp.net/attachments/755099548744941619/931692584420638730/LogoCircular.png" width="" height="30">](https://dreadrith.com/links "Dreadrith") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://dreadrith.com/discord/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://dreadrith.com/github "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://dreadrith.com/ "Store") and JustSleightly
 [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/JSLogo.png" width="30" height="30">](https://vrc.sleightly.dev/ "JustSleightly") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Discord.png" width="30" height="30">](https://discord.sleightly.dev/ "Discord") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/GitHub.png" width="30" height="30">](https://github.sleightly.dev/ "Github") [<img src="https://github.com/JustSleightly/Resources/raw/main/Icons/Store.png" width="30" height="30">](https://store.sleightly.dev/ "Store")
 
-![CC Showcase Mirror-Multi gif](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Showcase%20Mirror-Multi.gif)
+![CC Showcase Mirror-Multi gif](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Showcase%20Mirror-Multi.gif)
 
 **Carbon Copy** is a feature-rich constraint-based clone system built for **VRChat** users and designed with performers in mind. Its features are entirely customizable and modular while optimizing parameter memory, and can be installed with one-click without any VRChat 3.0 or advanced Unity experience whatsoever.
 
@@ -13,7 +13,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 
 ## Available now on [gumroad](https://dreadrith.com/)
 
-<img src="https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Showcase%20Swap-Bind.gif" height="239"> <img src="https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Default%20Window.png" height="239">
+<img src="https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Showcase%20Swap-Bind.gif" height="239"> <img src="https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Default%20Window.png" height="239">
 
 ### Features
 
@@ -69,7 +69,7 @@ With the earliest prototypes/teasers of the system dating back to 2020, we've sp
 ​
 <blockquote>
 
-![CC Full Window Demo gif](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Full%20Window%20Demo.gif)
+![CC Full Window Demo gif](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Full%20Window%20Demo.gif)
 
 </details>
 
@@ -98,9 +98,21 @@ Carbon Copy can be accessed from the top toolbar by clicking **DreadTools > Carb
 
 If you have never used this on this PC before, you will see a field labeled **Enter your license key**. Input your license key from your purchase and click activate. This is a one-time-use key that will authorize the current PC for future use of Carbon Copy.
 
-You will also be prompted to come up with a security question and password. These will be used if you ever need to reset/transfer your license, so please remember your selection. Please don't use any sensitive information for your responses.
-
 If your license key is not working due to it already being in use, click the *Transfer License* option.
+
+![CC Thank You png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Thank%20You.png)
+
+After first time successful validation, you will have the opportunity to choose between **Guided Mode** or **Advanced Mode**.
+
+### Guided Mode
+
+![CC Guided png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Guided.png)
+
+Follow the instructions on the installer window to proceed with installing Carbon Copy with its default configuration. If you'd like to further customize the Carbon Copy installation, you will need to use **Advanced Mode**.
+
+### Advanced Mode
+
+![CC Default Window png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Default%20Window.png)
 
 <details>
 
@@ -108,7 +120,7 @@ If your license key is not working due to it already being in use, click the *Tr
 ​
 <blockquote>
 
-![CC Main png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Main.png)
+![CC Main png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Main.png)
 
 <details>
 
@@ -189,7 +201,7 @@ Existing clones can be hidden and unhidden with the eye icon next to their names
 
 Adds scaling functionality to your clone. Uses +8 Memory. Enabled by default.
 
-![CC Scaling png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Scaling.png)
+![CC Scaling png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Scaling.png)
 
 <details>
 
@@ -231,7 +243,7 @@ The minimum or maximum scale percentage the clone can be scaled to.
 
 Allows using a different humanoid Avatar as the clone.
 
-![CC Proxy png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Proxy.png)
+![CC Proxy png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Proxy.png)
 
 <details>
 
@@ -286,7 +298,7 @@ Forces the two avatars into a T-Pose, this will help making the constraints on t
 
 Select whether the below settings will be saved to persist across instances and avatar loads, and if they are enabled or disabled by default.
 
-![CC Preferences png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Preferences.png)
+![CC Preferences png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Preferences.png)
 
 <details>
 
@@ -336,7 +348,7 @@ When enabled, **Vertical Mirror** will invert the gravity/force on PhysBones.
 ​
 <blockquote>
 
-![CC Configuration png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Configuration.png)
+![CC Configuration png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Configuration.png)
 
 <details>
 
@@ -451,6 +463,16 @@ FX Controller will be optimized in size by removing any sub-asset that's not use
 
 <details>
 
+  <summary> <strong> Proximity Head Shrink </strong> </summary>
+​
+<blockquote>
+
+If enabled, the clone's head will locally shrink while your head is inside it during **Swap**. This may cause PhysBones on your clone's head to exhibit weird behaviours in mirrors only to yourself due to PhysBones scaling to 0.
+
+</details>
+
+<details>
+
   <summary> <strong> Write Defaults </strong> </summary>
 ​
 <blockquote>
@@ -481,7 +503,7 @@ By default, this is *Assets/DreadScripts/Carbon Copy/GeneratedAssets/*.
 
 Optional mass-removal of components from the generated clone.
 
-![CC Clean Up png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Clean%20Up.png)
+![CC Clean Up png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Clean%20Up.png)
 
 <details>
 
@@ -553,7 +575,7 @@ Removes all PhysBone and PhysBone Collider components on the clone.
 
 Allows generating multiple separate clones.
 
-![CC Multi Clone png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Multi%20Clone.png)
+![CC Multi Clone png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Multi%20Clone.png)
 
 ~~To setup multiple clones, enable **Multi-Clone** and enter a unique suffix, then apply. You set them up one by one like this, and each clone needs to use a different suffix.~~
 
@@ -573,7 +595,7 @@ Click to apply Carbon Copy according to all the inputs above.
 
 After generation, the clone will appear as enabled, and a **Hide Avatar** button will appear in place of **Apply Carbon Copy**. Click **Hide Avatar** to disable the clone and finalize setup.
 
-![CC Utilities png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Utilities.png)
+![CC Utilities png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Utilities.png)
 
 </details>
 
@@ -583,7 +605,7 @@ After generation, the clone will appear as enabled, and a **Hide Avatar** button
 ​
 <blockquote>
 
-![CC Utilities png](https://github.com/Dreadrith/Carbon-Copy/raw/main/Documentation/Images/CC%20Utilities.png)
+![CC Utilities png](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Images/CC%20Utilities.png)
 
 <details>
 
@@ -1315,7 +1337,7 @@ You can find these generated resources at ***Save File Path**/GeneratedAssets/*.
 ​
 <blockquote>
 
-**Yes**, in the event you change hardware, you can use the **Transfer License** option when trying to verify your license key in Unity on the new hardware. This will require your license key, security question, and security answer. There is a cooldown period to prevent abuse, and these logs will be monitored for misuse. If you need to re-transfer sooner than this transfer period, open a support ticket on [discord](https://dreadrith.com/discord/).
+**Yes**, in the event you change hardware, you can use the **Transfer License** option when trying to verify your license key in Unity on the new hardware. There is a cooldown period to prevent abuse, and these logs will be monitored for misuse. If you need to re-transfer sooner than this transfer period, open a support ticket on [discord](https://dreadrith.com/discord/).
 
 </details>
 
