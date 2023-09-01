@@ -393,6 +393,24 @@ What the last extra Binding button should bind to.
 
 <details>
 
+  <summary> <strong> Anchor Direction </strong> </summary>
+​
+<blockquote>
+
+What direction the mirror clone's anchor should align to.
+
+| Option | Description |
+| :------------- | :------------- |
+| `Head` | Mirror starting from the direction your head is looking in (original behaviour) |
+| `Hips` | Mirror starting from the direction your hips are facing |
+| `Root` | Mirror starting from the direction your playspace is oriented in (thumbstick control) |
+
+![CC Anchor Direction gif](https://github.com/SleightlyDreadful/Carbon-Copy/raw/main/Documentation/Gifs/CC%20Anchor%20Direction.gif)
+
+</details>
+
+<details>
+
   <summary> <strong> Clone FX Animations </strong> </summary>
 ​
 <blockquote>
@@ -1328,6 +1346,16 @@ Navigate through your project files to your Avatar's Generated Assets folder for
 Assuming you have a **commercial license** for Carbon Copy, you will want to export the respective Generated Assets folder for your avatar alongside the rest of your avatar package.
 
 You can find these generated resources at ***Save File Path**/GeneratedAssets/*. By default, this is *Assets/DreadScripts/Carbon Copy/GeneratedAssets/*.
+
+</details>
+
+<details>
+
+  <summary> <strong> Why is my project crashing after importing Carbon Copy? </strong> </summary>
+​
+<blockquote>
+
+Remove Carbon Copy via Windows File Explorer and check your project to see if it currently contains Cinemachine. You can locate this by clicking on `Window > Package Manager` from the top toolbar, and browsing the packages currently in your project. If Cinemachine is added, remove it. It is sometimes added through the VRChat Worlds SDK, so you may need to remove any remnants of the Worlds SDK from your project and this package manager window before removing Cinemachine.
 
 </details>
 
